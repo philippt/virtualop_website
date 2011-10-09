@@ -19,7 +19,7 @@ color: #FFA500;
 
 #name{
 text-shadow: #303030 1px -2px 0.4px;
-color: #262626; 
+color: #E69400; 
 font-size: 48px;
 font-weight: 1000;
 margin-left: 80px;
@@ -27,7 +27,7 @@ margin-top: 170px;
 margin-bottom: 30px;
 }
 
-
+/*
 #name a{
 color: #E69400;
 text-decoration: none;
@@ -36,7 +36,7 @@ padding-top: auto;
 font-size: 50px;
 padding-bottom: auto;
 }
-
+*/
 
 #slogan{
 font-size: 28px;
@@ -45,3 +45,8 @@ color: #303030;
 text-shadow: gray 1px -2px 0.4px;
 }
 
+.nav{
+background-color: #E69400;
+width: 300px;
+margin-top: 30px;
+}
