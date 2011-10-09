@@ -45,14 +45,7 @@ margin-left: 80px;
 }
 
 
-#schaltflaeche{
-margin-top: 50px;
-margin-left: 80px;
-background-color: gray;
-width: 130px;
-}
-
-#schaltflaeche a:link{
+#nav a:link{
 display: inline;
 float: left;
 font-size: 16px;
