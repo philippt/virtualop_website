@@ -19,7 +19,8 @@ color: #FFA500;
 
 #name{
 color: #303030;
-font-size: 45px;
+text-shadow: gray 1px -2px 0.4px;
+font-size: 48px;
 font-weight: 1000;
 margin-left: 80px;
 margin-top: 170px;
@@ -45,7 +46,7 @@ margin-left: 80px;
 }
 
 
-#nav a:link{
+#nav ul li a:link{
 display: inline;
 float: left;
 font-size: 16px;
