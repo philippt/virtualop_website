@@ -56,12 +56,11 @@ border-radius: 10px;
 
 .nav li{
 background-color: gray;
-width: 60px;
-height: 80px;
 display: inline;
 }
 
 .nav a{
 text-decoration: none;
 color: #E89F19;
+font-size: 30px;
 }
