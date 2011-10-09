@@ -1,0 +1,27 @@
+/* --- CSS RESET --- */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:focus {outline: 0;}
+
+
+
+body{
+background:#333 url(../pix/bg.png) repeat-x;
+font-size: 14px;
+color: #FFA500;
+
+}
+
+
+#name{
+color: #303030;
+font-size: 28px;
+}
+
+#slogan{
+color: #E69400;
+font-size: 22px;
+}
