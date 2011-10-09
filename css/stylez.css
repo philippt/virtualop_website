@@ -18,8 +18,8 @@ color: #FFA500;
 
 
 #name{
-color: #303030;
-text-shadow: gray 1px -2px 0.4px;
+text-shadow: #303030 1px -2px 0.4px;
+color: #E69400; 
 font-size: 48px;
 font-weight: 1000;
 margin-left: 80px;
@@ -39,21 +39,32 @@ padding-bottom: auto;
 
 
 #slogan{
-color: #E69400;
 font-size: 28px;
-text-shadow: #303030 1px -2px 0.4px; 
 margin-left: 80px;
+color: #303030;
+text-shadow: gray 1px -2px 0.4px;
 }
 
+#nav ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color: #30303;
+}
+
+
+#nav ul li{
+border: 1px solid gray;
+border-radius: 5px;
+}
 
 #nav ul li a:link{
 display: inline;
 float: left;
 font-size: 16px;
 text-decoration: none;
-border-radius: 5px;
 text-shadow: #303030 1px -2px 0.4px; 
-background-color: #30303;
 font-family: courier new, monospace;
 color: #FFA500;
 margin-left: 10px;
