@@ -21,17 +21,14 @@ color: #FFA500;
 color: #303030;
 font-size: 34px;
 margin-left: 50px;
-margin-top: 200px;
+margin-top: 150px;
 margin-bottom: 30px;
 }
 
 
 #name a{
 color: #E69400;
-font-size: 34px;
-margin-left: 50px;
-margin-top: 200px;
-margin-bottom: 30px;
+text-decoration: none;
 }
 
 
@@ -39,5 +36,6 @@ margin-bottom: 30px;
 #slogan{
 color: #E69400;
 font-size: 28px;
-text-shadow: black 1px -2px 0.4px; 
+text-shadow: #303030 1px -2px 0.4px; 
+margin-left: 50px;
 }
