@@ -29,6 +29,9 @@ margin-bottom: 30px;
 #name a{
 color: #E69400;
 text-decoration: none;
+text-shadow: #303030 1px -2px 0.4px; 
+padding-top: auto;
+padding-bottom: auto;
 }
 
 
@@ -38,4 +41,18 @@ color: #E69400;
 font-size: 28px;
 text-shadow: #303030 1px -2px 0.4px; 
 margin-left: 80px;
+}
+
+#schaltflaeche{
+margin-top: 50xp;
+}
+
+#schaltflaeche a:link{
+display: inline;
+text-decoration: none;
+border-radius: 5px;
+background-color: #30303;
+font-family: courier new, monospace;
+color: #E69400;
+
 }
