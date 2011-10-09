@@ -64,7 +64,7 @@ margin-left: 10px;
 background-color: #303030;
 }
 
-.nav a{
+.nav ul li a{
 text-decoration: none;
 color: #E89F19;
 font-size: 30px;
