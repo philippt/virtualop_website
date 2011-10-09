@@ -45,10 +45,14 @@ margin-left: 80px;
 
 #schaltflaeche{
 margin-top: 50xp;
+margin-left: 80px;
+background-color: gray;
+width: 100px;
 }
 
 #schaltflaeche a:link{
 display: inline;
+float: left;
 text-decoration: none;
 border-radius: 5px;
 background-color: #30303;
