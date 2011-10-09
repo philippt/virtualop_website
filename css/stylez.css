@@ -19,7 +19,7 @@ color: #FFA500;
 
 #name{
 text-shadow: #303030 1px -2px 0.4px;
-color: block; 
+color: black; 
 font-size: 48px;
 font-weight: 1000;
 margin-left: 80px;
@@ -44,7 +44,7 @@ color: #303030;
 text-shadow: gray 1px -2px 0.4px;
 }
 
-#nav ul{
+.nav ul{
 list-style-type:none;
 margin:0;
 padding:0;
@@ -54,8 +54,7 @@ height: auto;
 background-color: #30303;
 }
 
-
-#nav ul li{
+.nav ul li{
 border: 1px solid gray;
 border-radius: 5px;
 display: inline;
