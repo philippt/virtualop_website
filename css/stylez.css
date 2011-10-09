@@ -56,7 +56,7 @@ padding-top: auto;
 padding-bottom: auto;
 }
 
-.nav li{
+.nav ul li{
 display: inline;
 height: 120px;
 width: 70px;
