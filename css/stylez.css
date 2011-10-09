@@ -55,7 +55,6 @@ border-radius: 10px;
 }
 
 .nav li{
-background-color: gray;
 display: inline;
 }
 
@@ -63,4 +62,6 @@ display: inline;
 text-decoration: none;
 color: #E89F19;
 font-size: 30px;
+height: 40px;
+background-color: gray;
 }
