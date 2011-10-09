@@ -45,28 +45,3 @@ color: #303030;
 text-shadow: gray 1px -2px 0.4px;
 }
 
-.nav ul{
-list-style-type:none;
-margin:0;
-padding:0;
-overflow:hidden;
-width: 300px;
-height: auto;
-background-color: #30303;
-}
-
-.nav ul li{
-border: 1px solid gray;
-border-radius: 5px;
-display: block;
-float: left;
-margin-left: 10px;
-}
-
-#nav ul li a{
-font-size: 16px;
-text-decoration: none;
-text-shadow: #303030 1px -2px 0.4px; 
-font-family: courier new, monospace;
-color: #FFA500;
-}
