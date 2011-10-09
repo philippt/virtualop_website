@@ -58,12 +58,12 @@ background-color: #30303;
 .nav ul li{
 border: 1px solid gray;
 border-radius: 5px;
-display: inline;
+display: block;
 float: left;
 margin-left: 10px;
 }
 
-#nav ul li a:link{
+#nav ul li a{
 font-size: 16px;
 text-decoration: none;
 text-shadow: #303030 1px -2px 0.4px; 
