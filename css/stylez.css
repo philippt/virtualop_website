@@ -19,10 +19,25 @@ color: #FFA500;
 
 #name{
 color: #303030;
-font-size: 28px;
+font-size: 34px;
+margin-left: 50px;
+margin-top: 200px;
+margin-bottom: 30px;
 }
+
+
+#name a{
+color: #E69400;
+font-size: 34px;
+margin-left: 50px;
+margin-top: 200px;
+margin-bottom: 30px;
+}
+
+
 
 #slogan{
 color: #E69400;
-font-size: 22px;
+font-size: 28px;
+text-shadow: black 1px -2px 0.4px; 
 }
