@@ -25,7 +25,7 @@ margin-top: 170px;
 margin-bottom: 30px;
 }
 
-
+/*
 #name a{
 color: #E69400;
 text-decoration: none;
@@ -33,7 +33,7 @@ text-shadow: #303030 1px -2px 0.4px;
 padding-top: auto;
 padding-bottom: auto;
 }
-
+*/
 
 
 #slogan{
@@ -43,8 +43,9 @@ text-shadow: #303030 1px -2px 0.4px;
 margin-left: 80px;
 }
 
+
 #schaltflaeche{
-margin-top: 50xp;
+margin-top: 50px;
 margin-left: 80px;
 background-color: gray;
 width: 100px;
@@ -53,10 +54,11 @@ width: 100px;
 #schaltflaeche a:link{
 display: inline;
 float: left;
+font-size: 16px;
 text-decoration: none;
 border-radius: 5px;
+text-shadow: #303030 1px -2px 0.4px; 
 background-color: #30303;
 font-family: courier new, monospace;
 color: #E69400;
-
 }
