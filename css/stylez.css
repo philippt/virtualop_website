@@ -20,7 +20,7 @@ color: #FFA500;
 #name{
 text-shadow: #303030 1px -2px 0.4px;
 color: #E69400; 
-font-size: 60px;
+font-size: 58px;
 font-weight: 1000;
 margin-left: 80px;
 margin-top: 170px;
@@ -55,12 +55,10 @@ border-radius: 10px;
 }
 
 .nav li{
-background-color: black;
-width: 100px;
+background-color: gray;
+width: 60px;
 height: 80px;
 display: inline;
-}
-
-.nav li a{
 text-decoration: none;
+color: #E89F19;
 }
