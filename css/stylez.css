@@ -19,7 +19,7 @@ color: #FFA500;
 
 #name{
 text-shadow: #303030 1px -2px 0.4px;
-color: #E69400; 
+color: block; 
 font-size: 48px;
 font-weight: 1000;
 margin-left: 80px;
@@ -27,7 +27,7 @@ margin-top: 170px;
 margin-bottom: 30px;
 }
 
-/*
+
 #name a{
 color: #E69400;
 text-decoration: none;
@@ -35,7 +35,6 @@ text-shadow: #303030 1px -2px 0.4px;
 padding-top: auto;
 padding-bottom: auto;
 }
-*/
 
 
 #slogan{
@@ -50,6 +49,8 @@ list-style-type:none;
 margin:0;
 padding:0;
 overflow:hidden;
+width: 300px;
+height: auto;
 background-color: #30303;
 }
 
@@ -57,15 +58,15 @@ background-color: #30303;
 #nav ul li{
 border: 1px solid gray;
 border-radius: 5px;
+display: inline;
+float: left;
+margin-left: 10px;
 }
 
 #nav ul li a:link{
-display: inline;
-float: left;
 font-size: 16px;
 text-decoration: none;
 text-shadow: #303030 1px -2px 0.4px; 
 font-family: courier new, monospace;
 color: #FFA500;
-margin-left: 10px;
 }
