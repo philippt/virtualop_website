@@ -61,15 +61,16 @@ list-style-type: none;
 .nav ul li{
 display: inline;
 height: 50px;
-width: 35px;
+width: auto;
 background-color: #303030;
 margin-top: 10px;
 margin-left: 5px;
+float: left;
 }
 
 .nav a:link, a:active, a:visited{
 text-decoration: none;
-color: #E89F19;
+color: black;
 font-size: 30px;
 background-color: #303030;
 }
