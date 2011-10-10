@@ -61,6 +61,7 @@ list-style-type: none;
 .nav li{
 width: auto;
 font-size: 28px;
+font-weight: 650;
 float: left;
 margin-left: 23px;
 margin-top: 8px;
