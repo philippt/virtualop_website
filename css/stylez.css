@@ -49,15 +49,14 @@ text-shadow: gray 1px -2px 0.4px;
 background-color: #E69400;
 width: 280px;
 height: 80px;
-margin-top: 70px;
-margin-left: 80px;
+margin: 0;
+padding: 0;
 border-radius: 10px;
 text-decoration: none;
 list-style-type: none;
 }
 
 .nav ul li{
-display: inline;
 height: 50px;
 width: auto;
 background-color: #303030;
@@ -67,6 +66,7 @@ float: left;
 }
 
 .nav a:link, a:active, a:visited{
+display: block;
 text-decoration: none;
 color: black;
 font-size: 30px;
