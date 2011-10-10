@@ -65,7 +65,8 @@ float: left;
 margin-left: 23px;
 margin-top: 8px;
 padding: 16px 15px;
-border: 1px solid #383838;
+border-bottom: 1px solid #555555;
+border-right: 1.5px solid #555555;
 border-radius: 10px;
 background: #424242 url('../pix/strisch.png') repeat-x;
 }
