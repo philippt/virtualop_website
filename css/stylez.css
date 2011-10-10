@@ -65,10 +65,3 @@ margin-left: 5px;
 float: left;
 }
 
-.nav a:link, a:active, a:visited{
-display: block;
-text-decoration: none;
-color: black;
-font-size: 30px;
-background-color: #303030;
-}
