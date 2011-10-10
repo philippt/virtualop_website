@@ -54,6 +54,8 @@ margin-left: 80px;
 border-radius: 10px;
 padding-top: auto;
 padding-bottom: auto;
+text-decoration: none;
+list-style-type: none;
 }
 
 .nav ul li{
@@ -61,7 +63,8 @@ display: inline;
 height: 30px;
 width: 70px;
 background-color: #303030;
-margin-top: 5px;
+margin-top: 10px;
+margin-left: 10px;
 }
 
 .nav a:link, a:active, a:visited{
