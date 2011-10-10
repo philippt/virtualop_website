@@ -56,13 +56,14 @@ padding-top: auto;
 padding-bottom: auto;
 }
 
-.nav li{
+.nav ul li{
 display: inline;
 height: 80px;
 width: 70px;
-margin-left: 10px;
-margin-top: 5px;
 background-color: #303030;
+position: relative;
+top: 15px;
+left: 5px;
 }
 
 .nav a:link, a:active, a:visited{
