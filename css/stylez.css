@@ -67,7 +67,7 @@ margin-top: 8px;
 padding: 16px 10px;
 border: 1px solid #383838;
 border-radius: 5px;
-background-color: url('../pix/strisch.png') repeat-x;
+background: url('../pix/strisch.png') repeat-x;
 }
 
 .nav li a{
