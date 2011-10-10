@@ -58,10 +58,13 @@ list-style-type: none;
 
 .nav li{
 background-color: #303030;
-width: 30px;
+width: 60px;
+float: left;
 }
 
 .nav li a{
 text-decoration: none;
+display: block;
 color: black;
+margin-left: 5px;
 }
