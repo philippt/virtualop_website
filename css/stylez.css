@@ -59,12 +59,13 @@ list-style-type: none;
 .nav li{
 background-color: #303030;
 width: 60px;
+font-size: 27px;
 float: left;
+margin-left: 10px;
 }
 
 .nav li a{
 text-decoration: none;
 display: block;
 color: black;
-margin-left: 5px;
 }
