@@ -49,19 +49,17 @@ text-shadow: gray 1px -2px 0.4px;
 background-color: #E69400;
 width: 280px;
 height: 80px;
-margin: 0;
+margin-top: 80px;
+margin-left: 80px;
 padding: 0;
 border-radius: 10px;
-text-decoration: none;
 list-style-type: none;
 }
 
-.nav ul li{
-height: 50px;
-width: 30px;
+.nav li{
 background-color: #303030;
-margin-top: 10px;
-margin-left: 5px;
-float: left;
 }
 
+.nav li a{
+text-decoration: none;
+}
