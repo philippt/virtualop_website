@@ -58,12 +58,10 @@ padding-bottom: auto;
 
 .nav ul li{
 display: inline;
-height: 80px;
+height: 30px;
 width: 70px;
 background-color: #303030;
-position: relative;
-top: 15px;
-left: 5px;
+margin-top: 5px;
 }
 
 .nav a:link, a:active, a:visited{
