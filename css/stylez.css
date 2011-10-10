@@ -61,9 +61,10 @@ list-style-type: none;
 .nav ul li{
 display: inline;
 height: 50px;
+width: 35px;
 background-color: #303030;
 margin-top: 10px;
-margin-left: 10px;
+margin-left: 5px;
 }
 
 .nav a:link, a:active, a:visited{
