@@ -46,7 +46,7 @@ text-shadow: gray 1px -2px 0.4px;
 }
 
 .nav{
-background-color: /*#3E3E3E*/black;
+background-color: /*#3E3E3E*/#303030;
 width: 280px;
 height: 80px;
 margin-top: 80px;
