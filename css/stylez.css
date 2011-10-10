@@ -65,7 +65,7 @@ font-weight: bold;
 float: left;
 margin-left: 20px;
 margin-top: 8px;
-padding: 16.5px 13px;
+padding: 16.1px 13px;
 border: 1px solid #383838;
 border-radius: 5px;
 background: url('../pix/strisch.png') repeat-x;
@@ -74,7 +74,7 @@ background: url('../pix/strisch.png') repeat-x;
 .nav li a{
 text-decoration: none;
 display: block;
-color: black;
+color: #191919;
 font-family: courier new, monospace;
-text-shadow: #515151 1px -2px 0.4px;
+text-shadow: gray 1px -2px 0.4px;
 }
