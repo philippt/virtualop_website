@@ -50,8 +50,7 @@ text-shadow: gray 1px -2px 0.4px;
 }
 
 #navi{
-float: right;
-margin-right: 60px;
+margin-left: 60px;
 }
 
 
@@ -64,14 +63,14 @@ list-style-type: none;
 
 .nav li{
 width: auto;
-font-size: 28px;
+font-size: 26px;
 float: left;
 margin-left: 23px;
 margin-top: 8px;
-padding: 13px 12px;
+padding: 12px 11px;
 border-bottom: 1px solid #555555;
 border-right: 1.5px solid #555555;
-border-radius: 10px;
+border-radius: 15px;
 background: #424242 url('../pix/strisch.png') repeat-x;
 }
 
