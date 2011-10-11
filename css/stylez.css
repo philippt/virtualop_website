@@ -7,15 +7,18 @@
 :focus {outline: 0;}
 
 
-
 body{
 background:#333 url(../pix/bg.png) repeat-x;
 font-size: 14px;
 font-family: Dejavu Sans, Sans-serif;
 color: #FFA500;
-
 }
 
+
+#header{
+width: 500px;
+display: inline;
+}
 
 #name{
 text-shadow: #303030 1px -2px 0.4px;
@@ -44,7 +47,6 @@ font-size: 23px;
 margin-left: 20px;
 color: #303030;
 text-shadow: gray 1px -2px 0.4px;
-max-width: 400px;
 }
 
 .nav{
