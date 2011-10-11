@@ -22,9 +22,9 @@ text-shadow: #303030 1px -2px 0.4px;
 color: #E69400; 
 font-size: 58px;
 font-weight: 1000;
-margin-left: 60px;
-margin-top: 50px;
-margin-bottom: 30px;
+margin-left: 20px;
+margin-top: 30px;
+margin-bottom: 8px;
 }
 
 /*
@@ -39,8 +39,8 @@ padding-bottom: auto;
 */
 
 #slogan{
-font-size: 28px;
-margin-left: 80px;
+font-size: 23px;
+margin-left: 20px;
 color: #303030;
 text-shadow: gray 1px -2px 0.4px;
 }
@@ -49,7 +49,7 @@ text-shadow: gray 1px -2px 0.4px;
 background-color: /*#3E3E3E*/#222222;
 width: 280px;
 height: 80px;
-margin-top: 80px;
+float: right;
 margin-left: 80px;
 padding: 0;
 border-right: 1px solid #323232;
