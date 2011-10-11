@@ -25,6 +25,7 @@ font-weight: 1000;
 margin-left: 20px;
 margin-top: 30px;
 margin-bottom: 8px;
+max-width: 400px;
 }
 
 /*
@@ -43,10 +44,10 @@ font-size: 23px;
 margin-left: 20px;
 color: #303030;
 text-shadow: gray 1px -2px 0.4px;
+max-width: 400px;
 }
 
 .nav{
-background-color: /*#3E3E3E*/#222222;
 width: 280px;
 height: 80px;
 float: right;
