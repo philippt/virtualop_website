@@ -53,13 +53,13 @@ text-shadow: gray 1px -2px 0.4px;
 #navi{
 float: right;
 margin-top: 20px;
-margin-right: 20px;
+margin-right: 40px;
 }
 
 
 .nav{
 width: auto;
-height: 80px;
+height: auto;
 padding: 0;
 list-style-type: none;
 }
