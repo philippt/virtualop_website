@@ -17,7 +17,8 @@ color: #FFA500;
 
 #header{
 width: 500px;
-display: inline;
+display: block;
+float: left;
 }
 
 #name{
@@ -63,7 +64,7 @@ list-style-type: none;
 
 .nav li{
 width: auto;
-font-size: 26px;
+font-size: 22px;
 float: left;
 margin-left: 23px;
 margin-top: 8px;
