@@ -49,15 +49,16 @@ color: #303030;
 text-shadow: gray 1px -2px 0.4px;
 }
 
+#navi{
+float: right;
+margin-right: 60px;
+}
+
+
 .nav{
 width: 280px;
 height: 80px;
-float: right;
-margin-right: 60px;
 padding: 0;
-border-right: 1px solid #323232;
-border-bottom: 1px solid #323232;
-border-radius: 10px;
 list-style-type: none;
 }
 
@@ -67,7 +68,7 @@ font-size: 28px;
 float: left;
 margin-left: 23px;
 margin-top: 8px;
-padding: 16px 15px;
+padding: 13px 12px;
 border-bottom: 1px solid #555555;
 border-right: 1.5px solid #555555;
 border-radius: 10px;
