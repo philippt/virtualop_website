@@ -64,7 +64,7 @@ padding: 0;
 list-style-type: none;
 }
 
-.nav li{
+.button{
 width: auto;
 font-size: 22px;
 float: left;
@@ -87,10 +87,11 @@ text-shadow: #5E5E5E 1px -2px 0.4px;
 color: white;
 }
 
+/*
 #footer{
-background-color: #E69400;
 height: 20px;
 width: 100%;
 position: absolute;
 bottom: 0;
 }
+*/
