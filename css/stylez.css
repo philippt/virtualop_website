@@ -10,8 +10,8 @@
 body{
 background:#333 url(../pix/bg.png) repeat-x;
 font-size: 14px;
-font-family: Dejavu Sans, Sans-serif;
-color: #FFA500;
+font-family: Courier New, monospace;
+color: #E69400;
 }
 
 
@@ -23,7 +23,7 @@ float: left;
 
 #name{
 text-shadow: #303030 1px -2px 0.4px;
-color: #E69400; 
+color: /*#E69400*/#375AD8; 
 font-size: 58px;
 font-weight: 1000;
 margin-left: 20px;
@@ -46,7 +46,7 @@ padding-bottom: auto;
 #slogan{
 font-size: 23px;
 margin-left: 20px;
-color: #303030;
+color: /*#303030*/#375AD8;
 text-shadow: #999999 1px -2px 0.4px;
 }
 
@@ -73,7 +73,6 @@ padding: 8px 13px 6px 13px;
 border-bottom: 2px solid #2A2A2A;
 border-right: 2px solid #2A2A2A;
 border-radius: 10px;
-background: #424242 url('../pix/strisch.png') repeat-x;
 }
 
 .nav li a{
@@ -85,12 +84,13 @@ text-shadow: #5E5E5E 1px -2px 0.4px;
 
 #contentWrapper {
 	clear: both;
-	margin-left: 20px;
+	margin-left: 150px;
+	margin-top: 50px;
 	padding-top: 20px;
 }
 
 #contentWrapper .buzzword {
-	color: blue;
+	color: #375AD8;
 	font-weight: bold;
 }
 
