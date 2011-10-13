@@ -9,9 +9,9 @@
 
 body{
 background:#333 url(../pix/bg.png) repeat-x;
-font-size: 14px;
+font-size: 15px;
 font-family: Courier New, monospace;
-color: #E69400;
+color: #375AD8;
 }
 
 
@@ -30,6 +30,7 @@ margin-left: 20px;
 margin-top: 30px;
 margin-bottom: 8px;
 max-width: 400px;
+letter-spacing: -1px;
 }
 
 /*
@@ -85,6 +86,7 @@ text-shadow: #5E5E5E 1px -2px 0.4px;
 #contentWrapper {
 	clear: both;
 	margin-left: 150px;
+	margin-right: 150px;
 	margin-top: 50px;
 	padding-top: 20px;
 }
