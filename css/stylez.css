@@ -9,7 +9,7 @@
 
 body{
 background:#333 url(../pix/bg.png) repeat-x;
-font-size: 17px;
+font-size: 18px;
 font-weight: bold;
 font-family: Courier New, monospace;
 color: #555555;
@@ -49,7 +49,7 @@ padding-bottom: auto;
 #slogan{
 font-size: 23px;
 margin-left: 25px;
-color: /*#303030*/#375AD8;
+color: /*#303030*/#00248F;
 /*text-shadow: #303030 1px -2px 0.4px;*/
 font-weight: bold;
 }
@@ -74,8 +74,8 @@ font-size: 22px;
 float: left;
 margin-left: 23px;
 padding: 8px 13px 6px 13px;
-border-bottom: 1px solid #919191;
-border-right: 1px solid #919191;
+border-bottom: 1px solid #666666;
+border-right: 1px solid #666666;
 border-left: 1px solid #929292;
 border-top: 1px solid #929292;
 border-radius: 10px;
@@ -84,7 +84,7 @@ border-radius: 10px;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #375AD8;
+color: #00248F;
 /*text-shadow: black 1px -2px 0.4px;*/
 font-weight: bold;
 }
@@ -101,15 +101,15 @@ font-weight: bold;
 }
 
 #contentWrapper h2{
-font-family: DejaVu Sans,sans-serif;
-color: #666666;
+font-size: 19px;
+color: #00248F;
 }
 
 
 #contentWrapper .buzzword {
-	color: #375AD8;
+	color: #00248F;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 19px;
 }
 
 /*
