@@ -86,7 +86,12 @@ text-shadow: #5E5E5E 1px -2px 0.4px;
 #contentWrapper {
 	clear: both;
 	margin-left: 20px;
-	margin-top: 50px;
+	padding-top: 20px;
+}
+
+#contentWrapper .buzzword {
+	color: blue;
+	font-weight: bold;
 }
 
 /*
