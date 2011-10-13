@@ -49,7 +49,7 @@ padding-bottom: auto;
 font-size: 23px;
 margin-left: 20px;
 color: /*#303030*/#375AD8;
-text-shadow: #999999 1px -2px 0.4px;
+text-shadow: #303030 1px -2px 0.4px;
 font-weight: bold;
 }
 
@@ -81,8 +81,8 @@ border-radius: 10px;
 .nav li a{
 text-decoration: none;
 display: block;
-color: white;
-text-shadow: #5E5E5E 1px -2px 0.4px;
+color: black;
+text-shadow: #375AD8 1px -2px 0.4px;
 }
 
 #contentWrapper {
@@ -96,7 +96,7 @@ text-shadow: #5E5E5E 1px -2px 0.4px;
 #contentWrapper .buzzword {
 	color: white;
 	font-weight: bold;
-	text-shadow: #303030 1px -2px 0.4px;
+	text-shadow: #375AD8 1px -2px 0.4px;
 }
 
 /*
