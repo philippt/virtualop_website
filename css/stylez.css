@@ -9,7 +9,7 @@
 
 body{
 background:#333 url(../pix/bg.png) repeat-x;
-font-size: 15px;
+font-size: 16px;
 font-family: Courier New, monospace;
 color: #375AD8;
 text-shadow: #303030 1px -2px 0.4px;
@@ -75,6 +75,8 @@ margin-left: 23px;
 padding: 8px 13px 6px 13px;
 border-bottom: 2px solid #375AD8;
 border-right: 2px solid #375AD8;
+border-left: 1px solid gray;
+border-top: 1px solid gray;
 border-radius: 10px;
 }
 
@@ -82,21 +84,23 @@ border-radius: 10px;
 text-decoration: none;
 display: block;
 color: black;
-text-shadow: #375AD8 1px -2px 0.4px;
+text-shadow: #375AD8 1px -2px 0.7px;
 }
 
 #contentWrapper {
 	clear: both;
 	margin-left: 150px;
 	margin-right: 150px;
-	margin-top: 50px;
+	margin-top: 80px;
 	padding-top: 20px;
+	font-weight: bold;
 }
 
 #contentWrapper .buzzword {
-	color: white;
+	color: black;
 	font-weight: bold;
-	text-shadow: #375AD8 1px -2px 0.4px;
+	text-shadow: #375AD8 1px -2px 0.7px;
+	font-weight: bold;
 }
 
 /*
