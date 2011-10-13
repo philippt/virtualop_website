@@ -47,19 +47,19 @@
   <!-- tabs and content loading -->
   <script type="text/javascript">
     function loadContent(selector, url) {
-	$.get(url, function(data) {
-	  $(selector).html(data);
-	});
+	  $.get(url, function(data) {
+	    $(selector).html(data);
+	  });
     }
 
     $(function() {
-	$('#navi li.button').click(function() {
-  	  url = $(this).find('a').attr('href');
- 	  loadContent('#contentWrapper', url);
-	  return false;
-	})
+	  $('#navi li.button').click(function() {
+        url = $(this).find('a').attr('href');
+ 	    loadContent('#contentWrapper', url);
+	    return false;
+	  })
 	
-	//$('#navi li').first().click();
+	  //$('#navi li').first().click();
     });
   </script>
 
