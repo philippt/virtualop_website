@@ -12,6 +12,7 @@ background:#333 url(../pix/bg.png) repeat-x;
 font-size: 15px;
 font-family: Courier New, monospace;
 color: #375AD8;
+text-shadow: #303030 1px -2px 0.4px;
 }
 
 
@@ -25,12 +26,12 @@ float: left;
 text-shadow: #303030 1px -2px 0.4px;
 color: /*#E69400*/#375AD8; 
 font-size: 58px;
-font-weight: 1000;
+font-weight: bold;
 margin-left: 20px;
 margin-top: 30px;
 margin-bottom: 8px;
 max-width: 400px;
-letter-spacing: -1px;
+letter-spacing: -3px;
 }
 
 /*
@@ -49,6 +50,7 @@ font-size: 23px;
 margin-left: 20px;
 color: /*#303030*/#375AD8;
 text-shadow: #999999 1px -2px 0.4px;
+font-weight: bold;
 }
 
 #navi{
@@ -71,15 +73,15 @@ font-size: 22px;
 float: left;
 margin-left: 23px;
 padding: 8px 13px 6px 13px;
-border-bottom: 2px solid #2A2A2A;
-border-right: 2px solid #2A2A2A;
+border-bottom: 2px solid #375AD8;
+border-right: 2px solid #375AD8;
 border-radius: 10px;
 }
 
 .nav li a{
 text-decoration: none;
 display: block;
-color: black;
+color: white;
 text-shadow: #5E5E5E 1px -2px 0.4px;
 }
 
@@ -92,8 +94,9 @@ text-shadow: #5E5E5E 1px -2px 0.4px;
 }
 
 #contentWrapper .buzzword {
-	color: #375AD8;
+	color: white;
 	font-weight: bold;
+	text-shadow: #303030 1px -2px 0.4px;
 }
 
 /*
