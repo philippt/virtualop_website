@@ -4,49 +4,67 @@
 
 <head>
 <title>virtualop</title>
-<link rel="stylesheet" type="text/css" href="../css/stylez.css"/>
-<script type="text/javascript" src="../jquery/jquery-1.5.1.min.js">
-</script>
+  <link rel="stylesheet" type="text/css" href="css/stylez.css"/>
+  <script type="text/javascript" src="jquery/jquery-1.5.1.min.js" />
 
-<script type="text/javascript">
-$(document).ready(function(){
-  $(".button").hover(function(){
-  $(this).css({"border-bottom":"2px solid #CFCFCF","border-right":"2px solid #CFCFCF"});
-},function(){
-$(this).css({"border-bottom":"2px solid #2A2A2A","border-right":"2px solid #2A2A2A"});
-  });
-});
-</script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button").hover(
+        function(){
+          $(this).css({"border-bottom":"2px solid #CFCFCF","border-right":"2px solid #CFCFCF"});
+        },
+        function(){
+          $(this).css({"border-bottom":"2px solid #2A2A2A","border-right":"2px solid #2A2A2A"});
+        }
+      );
+    });
+  </script>
 
 </head>
 
 <body>
 
-<div id="header">
+  <div id="header">
 
-<div id="name">
-virtualop.org
-</div>
-<div id="slogan">
-come to us and we will replace you with a very small script.
-</div>
+    <div id="name">virtualop.org</div>
+    <div id="slogan">
+      come to us and we will replace you with a very small script.
+    </div>
 
-</div>
+  </div>
 
+  <div id="navi">
+    <ul class="nav">
+      <li class="button"> <a href="tabs/virtualop.html">@op</a> </li>
+      <li class="button"> <a href="">contact</a> </li>
+    </ul>
+  </div>
 
-<div id="navi">
+  <div id="contentWrapper">
 
-<ul class="nav">
+  </div>
 
-<li class="button"> <a href="">@op</a> </li>
-<li class="button"> <a href="">contact</a> </li>
+  <!-- tabs and content loading -->
+  <script type="text/javascript">
+    function loadContent(selector, url) {
+	$.get(url, function(data) {
+	  $(selector).html(data);
+	});
+    }
 
-</ul>
+    $(function() {
+	$('#navi li.button').click(function() {
+  	  url = $(this).find('a').attr('href');
+ 	  loadContent('#contentWrapper', url);
+	  return false;
+	})
+	
+	$('#navi li').first().click();
+    });
+  </script>
 
-</div>
-
-<div id="footer">
-</div>
+  <div id="footer">
+  </div>
 
 </body>
 </html>
