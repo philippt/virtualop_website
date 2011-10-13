@@ -9,10 +9,10 @@
 
 body{
 background:#333 url(../pix/bg.png) repeat-x;
-font-size: 16px;
+font-size: 17px;
 font-weight: bold;
 font-family: Courier New, monospace;
-color: black;
+color: #262626;
 /*text-shadow: #303030 1px -2px 0.4px;*/
 }
 
@@ -24,7 +24,7 @@ float: left;
 }
 
 #name{
-text-shadow: #303030 1px -2px 0.4px;
+text-shadow: #303030 1px -2px 0.7px;
 color: /*#E69400*/#375AD8; 
 font-size: 58px;
 font-weight: bold;
@@ -74,10 +74,10 @@ font-size: 22px;
 float: left;
 margin-left: 23px;
 padding: 8px 13px 6px 13px;
-border-bottom: 2px solid #375AD8;
-border-right: 2px solid #375AD8;
-border-left: 1px solid gray;
-border-top: 1px solid gray;
+border-bottom: 2px solid #3A3A3A;
+border-right: 2px solid #3A3A3A;
+border-left: 1px solid #929292;
+border-top: 1px solid #929292;
 border-radius: 10px;
 }
 
@@ -92,7 +92,7 @@ font-weight: bold;
 #contentWrapper {
 	clear: both;
 	margin-left: 170px;
-	margin-right: 170px;
+	margin-right: 190px;
 	margin-top: 80px;
 	padding-top: 20px;
 	font-weight: bold;
@@ -101,7 +101,7 @@ font-weight: bold;
 #contentWrapper .buzzword {
 	color: #375AD8;
 	font-weight: bold;
-	text-shadow: black 1px -2px 0.4px;
+	text-shadow: black 2px -2px 0.4px;
 	font-weight: bold;
 }
 
