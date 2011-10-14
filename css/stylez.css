@@ -71,12 +71,12 @@ font-size: 22px;
 float: left;
 margin-left: 23px;
 padding: 8px 13px 6px 13px;
-border-bottom: 1px solid #666666;
-border-right: 1px solid #666666;
+border-bottom: 2px solid #666666;
+border-right: 2px solid #666666;
 border-left: 1px solid #666666;
 border-top: 1px solid #666666;
 border-radius: 10px;
-background-color: #40589F;
+background-color: #375AD8;
 }
 
 .nav li a{
@@ -100,7 +100,7 @@ font-weight: bold;
 font-size: 23px;
 color: #40589F;
 line-height: 100%;
-padding-left: 35px;
+padding-left: 45px;
 padding-right: 10px;
 }
 
