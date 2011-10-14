@@ -45,7 +45,7 @@ padding-bottom: auto;
 */
 
 #slogan{
-font-size: 23px;
+font-size: 25px;
 margin-left: 27px;
 color: /*#303030*/#40589F;
 font-weight: bold;
@@ -72,7 +72,7 @@ float: left;
 margin-left: 23px;
 padding: 8px 13px 6px 13px;
 border-bottom: 2px solid #666666;
-border-right: 2px solid #666666;
+border-right: 3px solid #666666;
 border-left: 1px solid #666666;
 border-top: 1px solid #666666;
 border-radius: 10px;
@@ -82,26 +82,29 @@ background-color: #375AD8;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #1C1C1C;
+color: #2E2E2E;
 font-weight: bold;
 }
 
 #contentWrapper {
 	clear: both;
 	margin-left: 70px;
+	padding-left: 45px;
 	margin-right: 200px;
 	margin-top: 80px;
 	padding-top: 20px;
 	line-height: 150%;
+	padding-bottom: 10px;
 	letter-spacing: 0.1px;
 }
 
 #contentWrapper h2{
-font-size: 23px;
+font-size: 25px;
 color: #40589F;
 line-height: 100%;
 padding-left: 45px;
 padding-right: 10px;
+padding-bottom: 10px;
 }
 
 
