@@ -10,9 +10,8 @@
 body{
 background:#333 url(../pix/bg.png) repeat-x;
 font-size: 20px;
-font-weight: bold;
 font-family: Courier New, monospace;
-color: #474747;
+color: #393939;
 }
 
 
@@ -48,7 +47,7 @@ padding-bottom: auto;
 #slogan{
 font-size: 23px;
 margin-left: 27px;
-color: /*#303030*/#2B4694;
+color: /*#303030*/#40589F;
 font-weight: bold;
 }
 
@@ -88,19 +87,18 @@ font-weight: bold;
 
 #contentWrapper {
 	clear: both;
-	margin-left: 100px;
+	margin-left: 70px;
 	margin-right: 200px;
 	margin-top: 80px;
 	padding-top: 20px;
-	line-height: 180%;
-	letter-spacing: 0.2px;
+	line-height: 150%;
+	letter-spacing: 0.1px;
 }
 
 #contentWrapper h2{
 font-size: 23px;
-color: #375AD8;
+color: #2B4694;
 line-height: 100%;
-background-color: #626262;
 }
 
 
