@@ -11,7 +11,7 @@ body{
 background:#333 url(../pix/bg.png) repeat-x;
 font-size: 20px;
 font-family: Courier New, monospace;
-color: #393939;
+color: #1C1C1C;
 }
 
 
@@ -73,15 +73,15 @@ margin-left: 23px;
 padding: 8px 13px 6px 13px;
 border-bottom: 1px solid #666666;
 border-right: 1px solid #666666;
-border-left: 1px solid #929292;
-border-top: 1px solid #929292;
+border-left: 1px solid #666666;
+border-top: 1px solid #666666;
 border-radius: 10px;
 }
 
 .nav li a{
 text-decoration: none;
 display: block;
-color: #2B4694;
+color: #40589F;
 font-weight: bold;
 }
 
@@ -97,13 +97,14 @@ font-weight: bold;
 
 #contentWrapper h2{
 font-size: 23px;
-color: #2B4694;
+color: #40589F;
 line-height: 100%;
+padding-left: 30px;
 }
 
 
 #contentWrapper .buzzword {
-	color: #2B4694;
+	color: #40589F;
 	font-weight: bold;
 	font-size: 20px;
 }
