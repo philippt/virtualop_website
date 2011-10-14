@@ -9,10 +9,10 @@
 
 body{
 background:#333 url(../pix/bg.png) repeat-x;
-font-size: 18px;
+font-size: 20px;
 font-weight: bold;
 font-family: Courier New, monospace;
-color: #555555;
+color: #474747;
 text-shadow: gray 1px -2px 0.4px;
 }
 
@@ -49,7 +49,7 @@ padding-bottom: auto;
 #slogan{
 font-size: 23px;
 margin-left: 25px;
-color: /*#303030*/#00248F;
+color: /*#303030*/#193A9A;
 /*text-shadow: #303030 1px -2px 0.4px;*/
 font-weight: bold;
 }
@@ -84,15 +84,15 @@ border-radius: 10px;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #00248F;
+color: #193A9A;
 /*text-shadow: black 1px -2px 0.4px;*/
 font-weight: bold;
 }
 
 #contentWrapper {
 	clear: both;
-	margin-left: 170px;
-	margin-right: 190px;
+	margin-left: 150px;
+	margin-right: 200px;
 	margin-top: 80px;
 	padding-top: 20px;
 	font-weight: bold;
@@ -101,15 +101,17 @@ font-weight: bold;
 }
 
 #contentWrapper h2{
-font-size: 19px;
-color: #00248F;
+font-size: 21px;
+color: #375AD8;
+line-height: 100;
+background-color: #858585;
 }
 
 
 #contentWrapper .buzzword {
 	color: #00248F;
 	font-weight: bold;
-	font-size: 19px;
+	font-size: 20px;
 }
 
 /*
