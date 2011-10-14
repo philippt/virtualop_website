@@ -76,13 +76,13 @@ border-right: 1px solid #666666;
 border-left: 1px solid #666666;
 border-top: 1px solid #666666;
 border-radius: 10px;
+background-color: #40589F;
 }
 
 .nav li a{
 text-decoration: none;
 display: block;
 color: #1C1C1C;
-background-color: #40589F;
 font-weight: bold;
 }
 
