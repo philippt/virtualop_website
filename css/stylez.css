@@ -99,7 +99,7 @@ font-weight: bold;
 
 #contentWrapper h2{
 font-size: 25px;
-color: #40589F;
+color: #FFA500;
 line-height: 100%;
 padding-left: 45px;
 padding-right: 10px;
@@ -108,7 +108,7 @@ padding-bottom: 10px;
 
 
 #contentWrapper .buzzword {
-	color: #40589F;
+	color: #FFA500;
 	font-weight: bold;
 	font-size: 20px;
 }
