@@ -81,7 +81,8 @@ border-radius: 10px;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #40589F;
+color: #1C1C1C;
+background-color: #40589F;
 font-weight: bold;
 }
 
@@ -99,7 +100,8 @@ font-weight: bold;
 font-size: 23px;
 color: #40589F;
 line-height: 100%;
-padding-left: 30px;
+padding-left: 35px;
+padding-right: 10px;
 }
 
 
