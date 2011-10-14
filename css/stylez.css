@@ -76,7 +76,7 @@ border-right: 3px solid #666666;
 border-left: 1px solid #666666;
 border-top: 1px solid #666666;
 border-radius: 10px;
-background-color: #375AD8;
+background-color: #40589F;
 }
 
 .nav li a{
@@ -88,7 +88,7 @@ font-weight: bold;
 
 #contentWrapper {
 	clear: both;
-	margin-left: 115px;
+	margin-left: 135px;
 	margin-right: 200px;
 	margin-top: 80px;
 	padding-top: 20px;
