@@ -64,7 +64,7 @@ font-weight: bold;
 #navi{
 float: right;
 margin-top: 20px;
-margin-right: 40px;
+display: block;
 }
 
 
@@ -98,7 +98,7 @@ font-weight: bold;
 
 #contentWrapper {
 	clear: both;
-	margin-left: 135px;
+	margin-left: 145px;
 	margin-right: 200px;
 	margin-top: 80px;
 	padding-top: 20px;
