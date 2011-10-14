@@ -22,10 +22,12 @@ float: left;
 }
 
 .fondo{
-opacity: 70;
+opacity: 0.70;
 width: 30%;
 float: right;
 margin-right: 10px;
+z-index: 1;
+
 }
 
 
