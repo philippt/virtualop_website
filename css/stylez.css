@@ -61,6 +61,7 @@ font-weight: bold;
 #navi{
 float: right;
 margin-top: 20px;
+margin-right: 5px;
 display: block;
 }
 
@@ -83,7 +84,7 @@ border-right: 3px solid #666666;
 border-left: 1px solid #666666;
 border-top: 1px solid #666666;
 border-radius: 10px;
-background-color: #FFA500;
+background-color: #40589F;
 }
 
 .nav li a{
@@ -97,7 +98,7 @@ font-weight: bold;
 	clear: both;
 	margin-left: 155px;
 	margin-right: 200px;
-	margin-top: 80px;
+	margin-top: 20px;
 	padding-top: 20px;
 	line-height: 150%;
 	padding-bottom: 10px;
