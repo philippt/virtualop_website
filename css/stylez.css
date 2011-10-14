@@ -13,7 +13,6 @@ font-size: 20px;
 font-weight: bold;
 font-family: Courier New, monospace;
 color: #474747;
-text-shadow: black 1px -2px 0.4px;
 }
 
 
@@ -48,9 +47,8 @@ padding-bottom: auto;
 
 #slogan{
 font-size: 23px;
-margin-left: 25px;
-color: /*#303030*/#193A9A;
-/*text-shadow: #303030 1px -2px 0.4px;*/
+margin-left: 27px;
+color: /*#303030*/#2B4694;
 font-weight: bold;
 }
 
@@ -84,32 +82,30 @@ border-radius: 10px;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #193A9A;
-/*text-shadow: black 1px -2px 0.4px;*/
+color: #2B4694;
 font-weight: bold;
 }
 
 #contentWrapper {
 	clear: both;
-	margin-left: 150px;
+	margin-left: 100px;
 	margin-right: 200px;
 	margin-top: 80px;
 	padding-top: 20px;
-	font-weight: bold;
-	line-height: 200%;
+	line-height: 180%;
 	letter-spacing: 0.2px;
 }
 
 #contentWrapper h2{
-font-size: 21px;
+font-size: 23px;
 color: #375AD8;
 line-height: 100%;
-background-color: #858585;
+background-color: #626262;
 }
 
 
 #contentWrapper .buzzword {
-	color: #193A9A;
+	color: #2B4694;
 	font-weight: bold;
 	font-size: 20px;
 }
