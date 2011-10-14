@@ -24,7 +24,7 @@ float: left;
 .fondo{
 opacity: 0.60;
 width: 30%;
-margin-right: 30px;
+margin-left: 30px;
 z-index: 1;
 
 }
@@ -85,7 +85,7 @@ border-right: 3px solid #666666;
 border-left: 1px solid #666666;
 border-top: 1px solid #666666;
 border-radius: 10px;
-background-color: #40589F;
+background-color: #FFA500;
 }
 
 .nav li a{
