@@ -21,6 +21,11 @@ display: block;
 float: left;
 }
 
+.fondo{
+opacity: 80;
+}
+
+
 #name{
 text-shadow: #303030 1px -2px 0.7px;
 color: /*#E69400*/#375AD8; 
