@@ -34,7 +34,7 @@
 
   <div id="numbers">
     <!--img src="pix/numbers.png" /-->
-  </div>
+  </div>  
 
   <div id="contentWrapper">
 
@@ -48,7 +48,31 @@
 	  });
     }
 
-    $(function() {
+    function generateLine(divName, className) {
+        var result = '<div id="' + divName + '" class="' + className + '">';
+	for (var j = 0; j < 200; j++) {
+	  result += Math.round(Math.random());
+	}    
+        result += '</div>';
+        return result;
+    }
+
+    function populateNumbers() {
+        var numberDivs = '';
+        for (var i = 0; i < 8; i++) {
+	  numberDivs += generateLine('numbers' + i, 'numbers');
+        }
+        $('#numbers').append(numberDivs);
+    }
+
+    function changeNumbers() {
+        var numberDivs = $('#numbers .numbers');
+        var divName = '#numbers' + Math.round(Math.random() * numberDivs.size()).toString();
+        $(divName).html(generateLine(divName, 'numbers'));
+        setTimeout(changeNumbers, Math.round(5000 * Math.random()));
+    }
+
+    $(function() {  
 	$('#navi li.button').click(function() {
         url = $(this).find('a').attr('href');
  	    loadContent('#contentWrapper', url);
@@ -63,6 +87,9 @@
 			$(this).css({"background-color":"#40589F"});
 	  	}
 	);
+
+        populateNumbers();
+	changeNumbers();
 
         $('#navi li').first().click();
     });

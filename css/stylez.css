@@ -8,7 +8,7 @@
 /* home, documentation, demo, contact, screenshots */
 
 body{
-background:#333 url(../pix/strischkonkretlaenger2.png) repeat-x;
+background:#333 url(../pix/strischkonkretlaenger.png) repeat-x;
 font-size: 20px;
 font-family: Courier New, monospace;
 color: #1C1C1C;
@@ -20,7 +20,8 @@ color: #1C1C1C;
 }
 
 #numbers {
-  background: url(../pix/numbers.png) repeat-x;
+/*   background: url(../pix/numbers.png) repeat-x; */
+  color: black;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -31,8 +32,12 @@ color: #1C1C1C;
  /* These three lines are for transparency in all browsers. */
  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
  filter: alpha(opacity=20);
- opacity:0.15;
+ opacity:0.2;
 
+}
+
+.numbers {
+  overflow: hidden;
 }
 
 #header{
