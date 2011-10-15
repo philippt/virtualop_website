@@ -7,17 +7,6 @@
   <link rel="stylesheet" type="text/css" href="css/stylez.css"/>
   <script type="text/javascript" src="jquery/jquery-1.5.1.min.js" />
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $(".button").hover(
-        function(){
-          $(this).css({"background-color":"#375AD8"});
-        },
-        function(){
-          $(this).css({"background-color":"#40589F"});
-        }
-      );
-    });
   </script>
 
 </head>
@@ -34,7 +23,7 @@
 
   </div>
 
-<img class="fondo" src="../pix/iStock_000017644057Small.jpg" />
+<!--img class="fondo" src="pix/iStock_000017644057Small.jpg" /-->
 
   <div id="navi">
     <ul class="nav">
@@ -42,6 +31,10 @@
       <li class="button"> <a href="tabs/contact.html">contact</a> </li>
     </ul>
   </div>
+
+  <div id="numbers">
+    <!--img src="pix/numbers.png" /-->
+  </div>  
 
   <div id="contentWrapper">
 
@@ -55,14 +48,50 @@
 	  });
     }
 
-    $(function() {
-	  $('#navi li.button').click(function() {
+    function generateLine(divName, className) {
+        var result = '<div id="' + divName + '" class="' + className + '">';
+	for (var j = 0; j < 200; j++) {
+	  result += Math.round(Math.random());
+	}    
+        result += '</div>';
+        return result;
+    }
+
+    function populateNumbers() {
+        var numberDivs = '';
+        for (var i = 0; i < 8; i++) {
+	  numberDivs += generateLine('numbers' + i, 'numbers');
+        }
+        $('#numbers').append(numberDivs);
+    }
+
+    function changeNumbers() {
+        var numberDivs = $('#numbers .numbers');
+        var divName = '#numbers' + Math.round(Math.random() * numberDivs.size()).toString();
+        $(divName).html(generateLine(divName, 'numbers'));
+        setTimeout(changeNumbers, Math.round(5000 * Math.random()));
+    }
+
+    $(function() {  
+	$('#navi li.button').click(function() {
         url = $(this).find('a').attr('href');
  	    loadContent('#contentWrapper', url);
 	    return false;
 	  })
 	
-	  //$('#navi li').first().click();
+	$("#navi li.button").hover(
+		function () {
+			$(this).css({"background-color":"#375AD8"});    			
+		}, 
+		function () {
+			$(this).css({"background-color":"#40589F"});
+	  	}
+	);
+
+        populateNumbers();
+	changeNumbers();
+
+        $('#navi li').first().click();
     });
   </script>
 
