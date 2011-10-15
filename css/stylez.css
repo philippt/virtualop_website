@@ -95,7 +95,7 @@ width: auto;
 font-size: 22px;
 float: left;
 margin-left: 23px;
-padding: 8px 13px 6px 10px;
+padding: 3px 10px 3px 10px;
 border-bottom: 2px solid #666666;
 border-right: 3px solid #666666;
 border-left: 1px solid #666666;
@@ -107,7 +107,7 @@ background: url('../pix/button.png') repeat-x;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #2E2E2E;
+color: #FFA500;
 font-weight: bold;
 }
 
