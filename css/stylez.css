@@ -107,7 +107,7 @@ background: url('../pix/button.png') repeat-x;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #FFA500;
+color: black;
 font-weight: bold;
 }
 
