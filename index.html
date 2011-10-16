@@ -70,7 +70,7 @@
         setTimeout(changeNumbers, Math.round(5000 * Math.random()));
     }
 
- <!--  
+  
  $(function() {  
 	$('#navi li.button').click(function() {
         url = $(this).find('a').attr('href');
@@ -80,13 +80,12 @@
 	
 	$("#navi li.button").hover(
 		function () {
-			$(this).css({"background-color":"#375AD8"});    			
-		}, 
+			$(this).css({"text-shadow":"white 1px -2px 0.7px", "border-bottom":"2px solid white","border-right":"3px solid white"});    			}, 
 		function () {
-			$(this).css({"background-color":"#40589F"});
+			$(this).css({"text-shadow":"0","border-bottom":"2px solid #666666","border-right":"3px solid #666666});
 	  	}
 	);
--->
+
 
         populateNumbers();
 	changeNumbers();
