@@ -11,7 +11,7 @@ body{
 background:#333 url(../pix/strischkonkretlaenger.png) repeat-x;
 font-size: 20px;
 font-family: Courier New, monospace;
-color: #959595;
+color: #A0A0A0;
 }
 
 
@@ -107,7 +107,7 @@ background: url('../pix/button.png') repeat-x;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #454545;
+color: #3E3E3E;
 font-family: dejavu sans,sans-serif;
 }
 
@@ -120,7 +120,7 @@ font-family: dejavu sans,sans-serif;
 	line-height: 150%;
 	padding-bottom: 10px;
 	letter-spacing: 0.1px;
-	text-shadow: #4D4D4D 1px -2px 0.4px; 
+	text-shadow: #3E3E3E 1px -2px 0.5px; 
 }
 
 #contentWrapper h2{
