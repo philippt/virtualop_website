@@ -108,13 +108,12 @@ background: url('../pix/button.png') repeat-x;
 text-decoration: none;
 display: block;
 color: #3E3E3E;
-font-family: dejavu sans,sans-serif;
 }
 
 #contentWrapper {
 	clear: both;
 	margin-left: 155px;
-	margin-right: 200px;
+	margin-right: 205px;
 	margin-top: 20px;
 	padding-top: 75px;
 	line-height: 150%;
