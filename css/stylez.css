@@ -11,7 +11,7 @@ body{
 background:#333 url(../pix/strischkonkretlaenger.png) repeat-x;
 font-size: 20px;
 font-family: Courier New, monospace;
-color: #898989;
+color: #959595;
 }
 
 
@@ -107,7 +107,7 @@ background: url('../pix/button.png') repeat-x;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #5F5F5F;
+color: #4D4D4D;
 font-family: dejavu sans,sans-serif;
 }
 
