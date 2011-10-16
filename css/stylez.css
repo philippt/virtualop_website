@@ -95,7 +95,7 @@ width: auto;
 font-size: 22px;
 float: left;
 margin-left: 23px;
-padding: 5px 10px 3px 10px;
+padding: 2px 10px 3px 10px;
 border-bottom: 2px solid #666666;
 border-right: 3px solid #666666;
 border-left: 1px solid #666666;
@@ -108,12 +108,13 @@ background: url('../pix/button.png') repeat-x;
 text-decoration: none;
 display: block;
 color: #3E3E3E;
+font-family: tahoma,sans-serif;
 }
 
 #contentWrapper {
 	clear: both;
 	margin-left: 155px;
-	margin-right: 205px;
+	margin-right: 210px;
 	margin-top: 20px;
 	padding-top: 75px;
 	line-height: 150%;
@@ -127,7 +128,7 @@ font-size: 25px;
 color: #FFA500;
 line-height: 100%;
 padding-right: 10px;
-padding-bottom: 10px;
+padding-bottom: 15px;
 }
 
 
