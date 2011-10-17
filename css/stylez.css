@@ -37,35 +37,35 @@ color: #A0A0A0;
 }
 
 #numbers0{
-color: #717171;
+color: #9C9C9C;
 }
 
 #numbers1{
-color: #717171;
+color: 	#8C8C8C;
 }
 
 #numbers2{
-color: #666666;
+color: #7D7D7D;
 }
 
 #numbers3{
-color: #666666;
+color: #6D6D6D;
 }
 
 #numbers4{
-color: #545454;
+color: #5E5E5E;
 }
 
 #numbers5{
-color: #545454;
+color: #4E4E4E;
 }
 
 #numbers6{
-color: #4F4F4F;
+color: #3E3E3E;
 }
 
 #numbers7{
-color: #4F4F4F;
+color: 	#2F2F2F;
 }
 
 #header{
@@ -132,14 +132,14 @@ border-bottom: 2px solid #666666;
 border-right: 3px solid #666666;
 border-left: 1px solid #666666;
 border-top: 1px solid #666666;
-border-radius: 2px;
+border-radius: 3px;
 background: url('../pix/button.png') repeat-x;
 }
 
 .nav li a{
 text-decoration: none;
 display: block;
-color: #3E3E3E;
+color: #2B2B2B;
 font-family: helvetica,sans-serif;
 }
 
