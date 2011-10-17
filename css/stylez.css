@@ -8,7 +8,7 @@
 /* home, documentation, demo, contact, screenshots */
 
 body{
-background:#333 url(../pix/strischkonkretlaenger.png) repeat-x;
+background:#333 url(../pix/strisch5.png) repeat-x;
 font-size: 20px;
 font-family: Courier New, monospace;
 color: #A0A0A0;
@@ -34,6 +34,38 @@ color: #A0A0A0;
 
 .numbers {
   overflow: hidden;
+}
+
+#numbers0{
+color: #717171;
+}
+
+#numbers1{
+color: #717171;
+}
+
+#numbers2{
+color: #666666;
+}
+
+#numbers3{
+color: #666666;
+}
+
+#numbers4{
+color: #545454;
+}
+
+#numbers5{
+color: #545454;
+}
+
+#numbers6{
+color: #4F4F4F;
+}
+
+#numbers7{
+color: #4F4F4F;
 }
 
 #header{
