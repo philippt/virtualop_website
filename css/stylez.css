@@ -124,14 +124,14 @@ list-style-type: none;
 
 .button{
 width: auto;
-font-size: 21px;
+font-size: 20px;
 float: left;
 margin-left: 23px;
 padding: 3px 10px 2px 10px;
-border-bottom: 2px solid #191919;
-border-right: 3px solid #191919;
-border-left: 1px solid #191919;
-border-top: 1px solid #191919;
+border-bottom: 2px solid #181818;
+border-right: 3px solid #181818;
+border-left: 1px solid #181818;
+border-top: 1px solid #181818;
 border-radius: 3px;
 background: url('../pix/button.png') repeat-x;
 }
@@ -139,7 +139,7 @@ background: url('../pix/button.png') repeat-x;
 .nav li a{
 text-decoration: none;
 display: block;
-color: #2B2B2B;
+color: #191919;
 font-family: helvetica,sans-serif;
 }
 
