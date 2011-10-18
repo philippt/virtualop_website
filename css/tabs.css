@@ -1,7 +1,7 @@
 .column{
 float: left;
 display: inline;
-width: 280px;
+width: 300px;
 height: 400px;
 margin-right: 25px;
 padding-right: 10px;
@@ -10,4 +10,5 @@ font-size: 13px;
 
 .column p{
 padding-left: 25px;
+padding-right: 5px;
 }
