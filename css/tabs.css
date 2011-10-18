@@ -12,3 +12,7 @@ font-size: 13px;
 padding-left: 30px;
 padding-right: 5px;
 }
+
+.verschwinde{
+list-style-type: none;
+}
