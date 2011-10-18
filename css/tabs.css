@@ -1,9 +1,9 @@
 .column{
 float: left;
 display: inline;
-width: 300px;
+width: 305px;
 height: 400px;
-margin-right: 20px;
+margin-right: 15px;
 padding-right: 10px;
 font-size: 13px;
 }
