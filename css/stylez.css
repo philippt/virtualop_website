@@ -128,10 +128,10 @@ font-size: 19px;
 float: left;
 margin-left: 23px;
 padding: 3px 10px 2px 10px;
-border-bottom: 2px solid #181818;
-border-right: 3px solid #181818;
-border-left: 1px solid #181818;
-border-top: 1px solid #181818;
+border-bottom: 2px solid #2A2A2A;
+border-right: 3px solid #2A2A2A;
+border-left: 1px solid #2A2A2A;
+border-top: 1px solid #2A2A2A;
 border-radius: 10px;
 background: url('../pix/button.png') repeat-x;
 }
