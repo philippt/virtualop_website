@@ -8,6 +8,6 @@ padding-right: 10px;
 font-size: 13px;
 }
 
-.column p{
+.column > p{
 padding-left: 10px;
 }
