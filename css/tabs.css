@@ -2,9 +2,9 @@
 float: left;
 display: inline;
 width: 270px;
-height: 300px;
+max-height: 400px;
 margin-right: 25px;
-padding-right: 5px;
+padding-right: 8px;
 font-size: 13px;
 border-right: 1px solid #A0A0A0;
 }
