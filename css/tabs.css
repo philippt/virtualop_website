@@ -5,4 +5,9 @@ width: 270px;
 height: 300px;
 margin-right: 25px;
 font-size: 13px;
+border-right: 1px solid white;
+}
+
+.buzzof{
+list-style-type: none;
 }
