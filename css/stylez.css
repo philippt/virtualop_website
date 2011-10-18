@@ -146,7 +146,7 @@ font-family: helvetica,sans-serif;
 #contentWrapper {
 	clear: both;
 	margin-left: 145px;
-	margin-right: 125px;
+	margin-right: 115px;
 	margin-top: 20px;
 	padding-top: 35px;
 	line-height: 150%;
@@ -159,7 +159,7 @@ font-family: helvetica,sans-serif;
 font-size: 25px;
 color: #FFA500;
 line-height: 100%;
-padding-left: 50px;
+padding-left: 70px;
 padding-right: 10px;
 padding-bottom: 8px;
 }

@@ -1,10 +1,13 @@
 .column{
 float: left;
 display: inline;
-width: 270px;
-max-height: 400px;
+width: 280px;
+height: 400px;
 margin-right: 25px;
-padding-right: 8px;
+padding-right: 10px;
 font-size: 13px;
-border-right: 1px solid #A0A0A0;
+}
+
+.column p{
+padding-left: 5px;
 }
