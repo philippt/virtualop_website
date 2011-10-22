@@ -18,10 +18,10 @@ padding-bottom: 2px;
 .column{
 float: left;
 display: inline;
-width: 330px;
-height: 400px;
+width: 335px;
+height: 330px;
 margin-right: 7px;
-padding-right: 10px;
+padding-right: 5px;
 font-size: 13px;
 }
 
@@ -95,7 +95,7 @@ color: white;
 text-shadow: #303030 1px -2px 0.2px;
 }
 
-.column_agility .key h2{
+.column_agility h2{
 font-size: 20px;
 font-weight: bold;
 color: #FFA500;
