@@ -1,17 +1,17 @@
 /*-------@OP--------*/
 
 #contentOP{
-margin-left: 130px;
+margin-left: 120px;
 }
 
 .column{
 float: left;
 display: inline;
-width: 305px;
+width: 320px;
 height: 400px;
-margin-right: 15px;
+margin-right: 13px;
 padding-right: 10px;
-font-size: 12px;
+font-size: 13px;
 }
 
 .column p{
@@ -48,9 +48,10 @@ color: white;
 .img{
 float: left;
 display: inline;
-width: 295px;
+width: 330px;
 height: 400px;
 margin-right: 15px;
+margin-left: 20px;
 padding-right: 10px;
 border: 1px solid #375AD8;
 }
