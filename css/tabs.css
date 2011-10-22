@@ -64,7 +64,7 @@ float: left;
 display: inline;
 width: 435px;
 height: 400px;
-margin-right: 15px;
+margin-right: 55px;
 margin-left: 20px;
 padding-right: 10px;
 border: 1px solid #375AD8;
@@ -75,12 +75,13 @@ float: left;
 display: inline;
 width: 305px;
 height: 400px;
-margin-right: 15px;
-padding-right: 10px;
+padding-right: 18px;
 }
 
 .column_agility h1{
-font-size: 20px;
+font-size: 21px;
+font-weight: bold;
+
 }
 
 .column_agility p{
@@ -88,10 +89,14 @@ font-size: 18px;
 }
 
 .column_agility .key{
-font-size: 21px;
+font-size: 19px;
 padding-top: 15px;
-color: #FFA500;
-#303030 1px -2px 0.2px;
-font-weight: bold;
+color: white;
+text-shadow: #303030 1px -2px 0.2px;
 }
 
+.column_agility .key .ACD{
+font-size: 20px;
+font-weight: bold;
+color: #FFA500;
+}
