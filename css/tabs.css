@@ -78,8 +78,8 @@ height: 400px;
 padding-right: 18px;
 }
 
-.column_agility h1{
-font-size: 21px;
+.column_agility a{
+font-size: 20px;
 font-weight: bold;
 color: #FFA500;
 }
