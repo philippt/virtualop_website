@@ -110,8 +110,8 @@ font-weight: bold;
 #navi{
 float: right;
 margin-top: 20px;
-margin-right: 15px;
 display: block;
+min-width: 700px;
 }
 
 
