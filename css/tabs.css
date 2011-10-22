@@ -1,7 +1,17 @@
 /*-------@OP--------*/
 
 #contentOP{
-margin-left: 110px;
+margin-left: 170px;
+margin-top: 2px;
+}
+
+#contentOP h2{
+font-size: 19.5px;
+color: #FFA500;
+line-height: 100%;
+padding-left: 20px;
+padding-right: 80px;
+padding-bottom: 2px;
 }
 
 .column{
