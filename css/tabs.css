@@ -63,11 +63,14 @@ margin-top: 10px;
 float: left;
 display: inline;
 width: 435px;
-height: 420px;
+height: 410px;
 margin-right: 55px;
 margin-left: 20px;
 padding-right: 10px;
-border: 1px solid #375AD8;
+border-right: 1px solid #375AD8;
+border-bottom: 1px solid #375AD8;
+border-top: 1px solid #40589F;
+border-left: 1px solid #40589F;
 padding-top: 40px;
 }
 
