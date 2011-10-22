@@ -81,7 +81,7 @@ padding-right: 18px;
 .column_agility h1{
 font-size: 21px;
 font-weight: bold;
-
+color: #FFA500;
 }
 
 .column_agility p{
@@ -95,7 +95,7 @@ color: white;
 text-shadow: #303030 1px -2px 0.2px;
 }
 
-.column_agility .key .ACD{
+.column_agility .key h2{
 font-size: 20px;
 font-weight: bold;
 color: #FFA500;
