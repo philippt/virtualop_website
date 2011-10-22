@@ -1,8 +1,9 @@
 /*-------@OP--------*/
 
 #contentOP{
-margin-left: 170px;
+margin-left: 90px;
 margin-top: 2px;
+margin-right: 80px;
 }
 
 #contentOP h2{
@@ -17,7 +18,7 @@ padding-bottom: 2px;
 .column{
 float: left;
 display: inline;
-width: 325px;
+width: 330px;
 height: 400px;
 margin-right: 7px;
 padding-right: 10px;
