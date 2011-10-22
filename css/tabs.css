@@ -1,15 +1,15 @@
 /*-------@OP--------*/
 
 #contentOP{
-margin-left: 120px;
+margin-left: 110px;
 }
 
 .column{
 float: left;
 display: inline;
-width: 320px;
+width: 330px;
 height: 400px;
-margin-right: 13px;
+margin-right: 7px;
 padding-right: 10px;
 font-size: 13px;
 }
