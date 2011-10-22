@@ -63,12 +63,14 @@ margin-top: 10px;
 float: left;
 display: inline;
 width: 435px;
-height: 400px;
+height: 420px;
 margin-right: 55px;
 margin-left: 20px;
 padding-right: 10px;
 border: 1px solid #375AD8;
+padding-top: 20px;
 }
+
 
 .column_agility{
 float: left;
@@ -78,7 +80,7 @@ height: 400px;
 padding-right: 18px;
 }
 
-.column_agility a{
+.column_agility h1{
 font-size: 20px;
 font-weight: bold;
 color: #FFA500;
@@ -95,8 +97,9 @@ color: white;
 text-shadow: #303030 1px -2px 0.2px;
 }
 
-.column_agility h2{
+.column_agility a{
 font-size: 20px;
 font-weight: bold;
 color: #FFA500;
+text-decoration: none;
 }
