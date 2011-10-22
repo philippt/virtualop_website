@@ -55,10 +55,15 @@ padding-right: 10px;
 }
 
 .column_agility h1{
-font-size: 17px;
+font-size: 20px;
 }
 
 .column_agility p{
-font-size: 15px;
+font-size: 18px;
+}
+
+.key{
+font-size: 23px;
+color: #FFA500;;
 }
 
