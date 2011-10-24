@@ -66,7 +66,7 @@ margin-left: 80px;
 margin-top: 30px;
 padding-left: 11px;
 padding-top: 7px;
-border: 2px solid #3F3F3F;
+border: 3px solid #3F3F3F;
 border-radius: 30px;
 background-color: #375AD8;
 text-shadow: none;
@@ -108,21 +108,22 @@ padding-right: 18px;
 font-size: 20px;
 font-weight: bold;
 color: #FFA500;
+margin-bottom: 40px;
 }
 
 .column_agility p{
-font-size: 15px;
+font-size: 14px;
 }
 
 .column_agility .key{
-font-size: 17px;
-padding-top: 85px;
+font-size: 16px;
+padding-top: 100px;
 color: #CACACA;
 text-shadow: #303030 1px -2px 0.2px;
 }
 
 .column_agility a{
-font-size: 19px;
+font-size: 18px;
 font-weight: bold;
 color: #FFA500;
 text-decoration: none;
