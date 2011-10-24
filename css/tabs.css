@@ -59,12 +59,12 @@ display: block;
 color: #191919;
 font-family: helvetica,sans-serif;
 
-width: 36px;
+width: 35px;
 height: 37px;
 font-size: 16px;
 margin-left: 80px;
 margin-top: 30px;
-padding-left: 10px;
+padding-left: 11px;
 padding-top: 7px;
 border-bottom: 2px solid #3F3F3F;
 border-right: 2px solid #3F3F3F;
@@ -111,13 +111,13 @@ color: #FFA500;
 }
 
 .column_agility p{
-font-size: 18px;
+font-size: 15px;
 }
 
 .column_agility .key{
-font-size: 19px;
+font-size: 17px;
 padding-top: 85px;
-color: white;
+color: #F5F5F5;
 text-shadow: #303030 1px -2px 0.2px;
 }
 
@@ -143,11 +143,15 @@ margin-right: 10px;
 
 .column_delivery h1{
 font-size: 17px;
-color: white;
+color: #F5F5F5;
 }
 
 .column_delivery h2, .column_delivery h3, 
 .column_delivery h4{
 font-size: 16px;
 color: #FFA500;
+}
+
+.column_delivery h4{
+margin-left: 200px;
 }
