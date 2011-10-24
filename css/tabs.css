@@ -57,7 +57,7 @@ color: white;
 text-decoration: none;
 display: block;
 color: #191919;
-font-family: helvetica,sans-serif;
+font-weight: bold;
 
 width: 35px;
 height: 37px;
@@ -117,7 +117,7 @@ font-size: 15px;
 .column_agility .key{
 font-size: 17px;
 padding-top: 85px;
-color: #F5F5F5;
+color: #E0E0E0;
 text-shadow: #303030 1px -2px 0.2px;
 }
 
@@ -143,7 +143,7 @@ margin-right: 10px;
 
 .column_delivery h1{
 font-size: 17px;
-color: #F5F5F5;
+color: #E0E0E0;
 }
 
 .column_delivery h2, .column_delivery h3, 
@@ -153,5 +153,5 @@ color: #FFA500;
 }
 
 .column_delivery h4{
-margin-left: 200px;
+margin-left: 380px;
 }
