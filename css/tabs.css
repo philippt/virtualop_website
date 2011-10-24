@@ -66,8 +66,7 @@ margin-left: 80px;
 margin-top: 30px;
 padding-left: 11px;
 padding-top: 7px;
-border-bottom: 2px solid #3F3F3F;
-border-right: 5px solid #3F3F3F;
+border: 2px solid #3F3F3F;
 border-radius: 30px;
 background-color: #375AD8;
 text-shadow: none;
@@ -118,12 +117,12 @@ font-size: 15px;
 .column_agility .key{
 font-size: 17px;
 padding-top: 85px;
-color: #E0E0E0;
+color: #CACACA;
 text-shadow: #303030 1px -2px 0.2px;
 }
 
 .column_agility a{
-font-size: 20px;
+font-size: 19px;
 font-weight: bold;
 color: #FFA500;
 text-decoration: none;
@@ -138,13 +137,13 @@ width: 480px;
 height: 400px;
 padding: 5px;
 font-size: 14px;
-margin-left: 80px;
-margin-right: 10px;
+margin-left: 20px;
+margin-right: 40px;
 }
 
 .column_delivery h1{
 font-size: 17px;
-color: #E0E0E0;
+color: #CACACA;
 }
 
 .column_delivery h2, .column_delivery h3, 
