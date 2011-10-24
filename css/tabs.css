@@ -73,7 +73,10 @@ text-shadow: none;
 }
 
 .contact a:hover{
-border: 1px solid #3F3F3F;
+border-right: 1px solid #3F3F3F;
+border-top: 1px solid #3F3F3F;
+border-bottom: 1px solid #3F3F3F;
+border-left: 2px solid #3F3F3F;
 }
 
 
@@ -104,7 +107,7 @@ float: left;
 display: inline;
 width: 305px;
 height: 400px;
-padding-right: 18px;
+padding-right: 25px;
 }
 
 .column_agility h1{
