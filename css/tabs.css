@@ -162,3 +162,27 @@ color: #FFA500;
 .column_delivery h4{
 margin-left: 380px;
 }
+
+
+/*--------Operations-------*/
+#contentOPs{
+margin-left: 90px;
+margin-top: 2px;
+margin-right: 80px;
+}
+
+#contentOPs h1{
+font-size: 20px;
+color: #FFA500;
+}
+
+.column_operations{
+float: left;
+display: inline;
+width: 335px;
+height: 330px;
+margin-right: 7px;
+padding-right: 5px;
+font-size: 14px;
+}
+
