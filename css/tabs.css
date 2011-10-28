@@ -179,14 +179,15 @@ color: #FFA500;
 .column_operations{
 float: left;
 display: inline;
-width: 335px;
+width: 250px;
 height: 330px;
 margin-right: 7px;
 padding-right: 5px;
 font-size: 14px;
 }
 
-#contentOPs h2{
+.automate{
 font-size: 20px;
 color: #FFA500;
+width: 400px;
 }
