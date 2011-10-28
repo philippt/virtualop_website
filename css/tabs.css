@@ -180,10 +180,14 @@ color: #FFA500;
 float: left;
 display: inline;
 width: 250px;
-height: 330px;
+height: 300px;
 margin-right: 7px;
 padding-right: 5px;
 font-size: 14px;
+}
+
+.ease{
+display: block;
 }
 
 .automate{
