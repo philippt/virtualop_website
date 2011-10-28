@@ -157,17 +157,19 @@ color: #CACACA;
 .column_delivery h4{
 font-size: 16px;
 color: #FFA500;
+text-shadow: none;
 }
 
 .column_delivery h4{
-margin-left: 380px;
+margin-left: 498px;
+font-size: 21px;
 }
 
 
 /*--------Operations-------*/
 #contentOPs{
 margin-left: 90px;
-margin-top: 2px;
+margin-top: 25px;
 margin-right: 80px;
 }
 
@@ -180,14 +182,15 @@ color: #FFA500;
 float: left;
 display: inline;
 width: 250px;
-height: 300px;
-margin-right: 7px;
+height: 250px;
+margin-right: 20px;
 padding-right: 5px;
 font-size: 14px;
 }
 
 .ease{
 display: block;
+margin-left: 490px;
 }
 
 .automate{
