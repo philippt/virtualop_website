@@ -129,10 +129,11 @@ text-shadow: #303030 1px -2px 0.2px;
 }
 
 .column_agility a{
-font-size: 18px;
+font-size: 17px;
 font-weight: bold;
 color: #FFA500;
 text-decoration: none;
+text-shadow: none;
 }
 
 /*--------DELIVERY--------*/
