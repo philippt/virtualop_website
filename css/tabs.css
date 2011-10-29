@@ -178,6 +178,7 @@ margin-right: 80px;
 font-size: 20px;
 color: #FFA500;
 margin-top: 50px;
+margin-left: 38px;
 margin-bottom: 40px;
 }
 
@@ -188,14 +189,14 @@ width: 300px;
 height: 250px;
 margin-right: 50px;
 padding-right: 5px;
-font-size: 14px;
+font-size: 15px;
 }
 
 .ease{
 display: block;
-margin-left: 690px;
+margin-left: 694px;
 height: 30px;
-margin-top: 20px;
+margin-top: 200px;
 }
 
 .automate{
@@ -203,3 +204,7 @@ font-size: 20px;
 color: #FFA500;
 width: 400px;
 }
+
+.bright{
+color: white;
+font-size: 16px;
