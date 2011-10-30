@@ -7,8 +7,8 @@ on_machine do |machine, params|
   machine.install_apache
   machine.add_static_vhost("document_root" => "/var/www/virtualop_website", "server_name" => params["domain"])
   machine.start_unix_service("name" => "httpd")
-
-  host_name = machine.name.split(".")[1..2].join(".")
+  
+  host_name = machine.name.split('.')[1..10].join('.')
   proxy_name = "proxy." + host_name
   @op.with_machine(proxy_name) do |proxy|
     proxy.add_reverse_proxy("server_name" => [ params["domain"] ], "target_url" => "http://#{machine.ipaddress}/")
