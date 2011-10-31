@@ -92,13 +92,9 @@ display: inline;
 width: 435px;
 height: 410px;
 margin-right: 55px;
-margin-left: 20px;
-padding-right: 10px;
-border-right: 1px solid #375AD8;
-border-bottom: 1px solid #375AD8;
-border-top: 1px solid #40589F;
-border-left: 1px solid #40589F;
-padding-top: 40px;
+margin-left: 25px;
+padding-right: 5px;
+padding-top: 20px;
 }
 
 
@@ -197,7 +193,7 @@ font-size: 15px;
 display: block;
 margin-left: 694px;
 height: 30px;
-margin-top: 200px;
+margin-top: 250px;
 }
 
 .automate{
