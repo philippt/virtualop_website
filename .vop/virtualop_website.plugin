@@ -1,0 +1,3 @@
+dependency :core
+dependency :machines
+dependency :vop_services
