@@ -6,7 +6,7 @@ param "domain", "the domain at which the website should be available", :mandator
 on_machine do |machine, params|  
   machine.install_service("service_root" => "/etc/vop/service_descriptors/apache")
   machine.add_static_vhost("document_root" => "/var/www/virtualop_website", "server_name" => params["domain"])
-  machine.re_start_unix_service("name" => "httpd")
+  machine.restart_unix_service("name" => "httpd")
   
   host_name = machine.name.split('.')[1..10].join('.')
   proxy_name = "proxy." + host_name
