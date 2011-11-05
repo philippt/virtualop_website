@@ -167,6 +167,10 @@ margin-left: 20px;
 margin-right: 40px;
 }
 
+.column_delivery ul li{
+margin-bottom: 5px;
+}
+
 .column_delivery h1{
 font-size: 17px;
 color: #FFA500;
@@ -185,7 +189,7 @@ font-size: 21px;
 margin-top: 0;
 }
 
-.column_delivery h5{
+.column_delivery a{
 font-size: 14px;
 font-weight: bold;
 }
