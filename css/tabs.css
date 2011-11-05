@@ -156,7 +156,7 @@ text-shadow: none;
 
 /*--------DELIVERY--------*/
 
-.column_delivery{
+.column_delivery, .column_delivery2{
 float: left;
 display: inline;
 width: 480px;
@@ -167,9 +167,14 @@ margin-left: 20px;
 margin-right: 40px;
 }
 
-.column_delivery ul li{
+.column_delivery ul > li{
 margin-bottom: 5px;
 }
+
+.column_delivery2 ul > li{
+margin-bottom: 10px;
+}
+
 
 .column_delivery h1{
 font-size: 17px;
