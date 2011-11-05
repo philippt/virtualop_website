@@ -140,14 +140,14 @@ font-size: 14px;
 }
 
 .column_agility .key{
-font-size: 16px;
+font-size: 15px;
 padding-top: 100px;
 color: #CACACA;
 text-shadow: #303030 1px -2px 0.2px;
 }
 
 .column_agility a{
-font-size: 17px;
+font-size: 16px;
 font-weight: bold;
 color: #FFA500;
 text-decoration: none;
@@ -184,6 +184,12 @@ margin-left: 498px;
 font-size: 21px;
 margin-top: 0;
 }
+
+.column_delivery h5{
+font-size: 14px;
+font-weight: bold;
+}
+
 
 
 /*--------Operations-------*/
