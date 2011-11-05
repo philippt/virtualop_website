@@ -30,12 +30,17 @@ display: inline;
 width: 335px;
 height: 330px;
 margin-right: 7px;
-padding-right: 5px;
+padding-right: 20px;
 font-size: 13px;
+border-right: 1px solid #909090;
+}
+
+.column3{
+border-right: none;
 }
 
 .column p{
-padding-left: 30px;
+padding-left: 25px;
 padding-right: 5px;
 }
 
