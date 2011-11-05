@@ -30,7 +30,7 @@ display: inline;
 width: 335px;
 height: 330px;
 margin-right: 7px;
-padding-right: 20px;
+padding-right: 15px;
 font-size: 13px;
 border-right: 1px solid #909090;
 }
@@ -42,7 +42,7 @@ display: inline;
 width: 335px;
 height: 330px;
 margin-right: 7px;
-padding-right: 20px;
+padding-right: 15px;
 font-size: 13px;
 }
 
@@ -51,6 +51,10 @@ padding-left: 25px;
 padding-right: 5px;
 }
 
+.column3 p{
+padding-left: 25px;
+padding-right: 5px;
+}
 
 /*-------SORRY--------*/
 
