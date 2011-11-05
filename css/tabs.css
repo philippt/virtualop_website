@@ -15,6 +15,13 @@ padding-right: 80px;
 padding-bottom: 2px;
 }
 
+#contentOP h3{
+margin-top: 5px;
+color: #FFA500;
+font-weight: bold;
+font-size: 15px;
+}
+
 .column{
 float: left;
 display: inline;
@@ -30,9 +37,6 @@ padding-left: 30px;
 padding-right: 5px;
 }
 
-.verschwinde{
-list-style-type: none;
-}
 
 /*-------SORRY--------*/
 
