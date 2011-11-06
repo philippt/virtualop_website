@@ -197,6 +197,8 @@ color: #FFA500;
 .column_delivery a{
 font-size: 14px;
 font-weight: bold;
+list-style-type: none;
+text-decoration: none;
 }
 
 
