@@ -123,7 +123,7 @@ padding-top: 20px;
 .column_agility{
 float: left;
 display: inline;
-width: 305px;
+width: 300px;
 height: 400px;
 padding-right: 25px;
 }
@@ -136,7 +136,7 @@ margin-bottom: 40px;
 }
 
 .column_agility p{
-font-size: 14px;
+font-size: 13px;
 }
 
 .column_agility .key{
@@ -194,10 +194,9 @@ margin-top: 0;
 color: #FFA500;
 }
 
-.column_delivery a:link{
+.column_delivery a{
 font-size: 14px;
 font-weight: bold;
-list-style-type: none;
 text-decoration: none;
 }
 
