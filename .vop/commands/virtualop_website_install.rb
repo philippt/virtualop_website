@@ -2,7 +2,7 @@ description 'installs the virtualop website project'
 
 param :machine
 param "domain", "the domain at which the website should be available", :mandatory => true
-param :service_root
+#param :service_root
 
 on_machine do |machine, params|  
   machine.install_service("service_root" => "/etc/vop/service_descriptors/apache")
