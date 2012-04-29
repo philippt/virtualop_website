@@ -8,6 +8,10 @@ on_machine do |machine, params|
   dir_name = params["service_root"].split("/").last
   new_root = "/var/www/#{dir_name}"
   machine.ssh_and_check_result("command" => "mv #{params["service_root"]} #{new_root}")
+  @op.without_cache do
+    machine.list_working_copies
+  end
+  
   # TODO probably only works on centos
   machine.chown("file_name" => new_root, "ownership" => "apache")
   
