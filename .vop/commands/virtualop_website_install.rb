@@ -11,10 +11,12 @@ on_machine do |machine, params|
   new_root = "/var/www/#{dir_name}"
   unless params["service_root"] === new_root
     machine.ssh_and_check_result("command" => "mv #{params["service_root"]} #{new_root}")
-    machine.update_service_details("service" => "virtualop_website", "extra_params" => { "service_root" => new_root })
+    machine.update_service_details("service" => "virtualop_website", "service_root" => new_root)
+    $logger.info "updated service details"
     @op.without_cache do
       machine.list_working_copies
-      machine.service_details("service" => "virtualop_website")
+      details = machine.service_details("service" => "virtualop_website")
+      pp details
     end
   end
   
