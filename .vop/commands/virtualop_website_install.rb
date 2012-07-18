@@ -7,11 +7,14 @@ param "service_root", "fully qualified path to the location of the service", :ma
 on_machine do |machine, params|
   dir_name = params["service_root"].split("/").last
     
+  # TODO this is not really a good idea
   new_root = "/var/www/#{dir_name}"
   unless params["service_root"] === new_root
     machine.ssh_and_check_result("command" => "mv #{params["service_root"]} #{new_root}")
+    machine.update_service_details("service" => "virtualop_website", "extra_params" => { "service_root" => new_root })
     @op.without_cache do
       machine.list_working_copies
+      machine.service_details("service" => "virtualop_website")
     end
   end
   
