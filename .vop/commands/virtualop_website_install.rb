@@ -10,7 +10,7 @@ on_machine do |machine, params|
   machine.chown("file_name" => params["service_root"], "ownership" => "apache")
   
   machine.install_canned_service("service" => "apache/apache")
-  machine.add_static_vhost("document_root" => new_root, "server_name" => params["domain"])
+  machine.add_static_vhost("document_root" => params["service_root"], "server_name" => params["domain"])
   
   machine.restart_unix_service("name" => "httpd")
   
