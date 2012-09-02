@@ -6,9 +6,19 @@
 <title>virtualop</title>
   <link rel="stylesheet" type="text/css" href="css/stylez.css"/>
   <link rel="stylesheet" type="text/css" href="css/tabs.css"/>
-  <script type="text/javascript" src="jquery/jquery-1.5.1.min.js" />
 
-  </script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+   <!--script type="text/javascript" src="jquery/jquery-1.5.1.min.js" /-->
+
+  <script type="text/javascript" src="jquery/jquery-ui-1.8.19.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="jqtransformplugin/jqtransform.css" />
+<link rel="stylesheet" type="text/css" href="formValidator/validationEngine.jquery.css" />
+
+<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
 
 </head>
 
@@ -16,43 +26,69 @@
 
   <div id="header">
 
-    <div id="name">virtualop.org</div>
-    <div id="slogan">
-      Revolution. After breakfast.
-    </div>
+<div id="numbers">
+    <!--img src="pix/numbers.png" /-->
+  </div> 
 
-
-  </div>
-
+  
   <div id="navi">
     <ul class="nav">
-      <li class="button"> <a href="tabs/virtualop.html">@op</a> </li>
-      <li class="button"> <a href="tabs/agility.html">agility</a> </li>
-      <li class="button"> <a href="tabs/delivery.html">delivery</a> </li>
-      <li class="button"> <a href="tabs/operations.html">operations</a> <li>
-      <li class="button"> <a href="tabs/sorry.html">projects</a> </li>
-      <li class="button"> <a href="tabs/contact.html">contact</a> </li>
+      <li class="button b"> <a href="../tabs/virtualop_bn.html">home</a> </li>
+
+      <li id="navi_virtualop" class="button b1"> <a href="../tabs/products.html">virtualop</a> 
+<div class="butcontent1 button"><a href="../tabs/plugins.html">plugins</a></div></li>
+
+      <li class="button b2"> <a href="../tabs/contact.html">platform</a>
+<div class="butcontent2 button"><a href="../tabs/contact.html">pricing</a></div></li>
+
+      <li class="button b"> <a href="">support</a> </li>
+      <li class="button b"> <a href="../tabs/downloads.html">downloads</a> </li>
+      <li class="button b"> <a href="../tabs/contact.php">contact</a> </li>
     </ul>
   </div>
 
-  <div id="numbers">
-    <!--img src="pix/numbers.png" /-->
-  </div>  
+<div id="logo">
+ <div id="pagename">virtualop</div>
+
+ <div id="slogan"> 
+ Automated Infrastructure.
+ </div>
+</div>
+
+
+
+  </div>
+
+ 
 
 <div id="contentWrapper">
 </div>
 
+
+
   <!-- tabs and content loading -->
-  <script type="text/javascript">
+ 
+ <script type="text/javascript">
     function loadContent(selector, url) {
 	  $.get(url, function(data) {
 	    $(selector).html(data);
 	  });
     }
 
+ $(function() {  
+     $('#navi .button').click(function() {
+	the_id = $(this).attr('id');
+        url = $(this).find('a').attr('href');
+        loadContent('#contentWrapper', url);
+        return false;
+ });
+
+
+
+
     function generateLine(divName, className) {
         var result = '<div id="' + divName + '" class="' + className + '">';
-	for (var j = 0; j < 200; j++) {
+	for (var j = 0; j < 512; j++) {
 	  result += Math.round(Math.random());
 	}    
         result += '</div>';
@@ -74,22 +110,6 @@
         setTimeout(changeNumbers, Math.round(5000 * Math.random()));
     }
 
-  
- $(function() {  
-	$('#navi li.button').click(function() {
-        url = $(this).find('a').attr('href');
- 	    loadContent('#contentWrapper', url);
-	    return false;
-	  })
-	
-	$("#navi li.button").hover(
-		function () {
-			$(this).css({"border-bottom":"1px solid white","border-right":"2px solid white","color":"white"});
-}, 
-		
-function () {
-	$(this).css({"border-bottom":"1px solid #3F3F3F","border-right":"2px solid #3F3F3F","color":"#191919"});
-	  	});
 
 
         populateNumbers();
@@ -97,8 +117,31 @@ function () {
 
         $('#navi li').first().click();
     });
-  </script>
 
+<!-- navi - hover -->
+
+$(".b1").hover(function(){
+$(this).slideDown("1500",function(){
+$(".butcontent1").fadeIn("500")})},
+function(){
+$(".butcontent1").hide("500");
+});
+
+
+$(".b2").hover(function(){
+$(this).slideDown("1500",function(){
+$(".butcontent2").fadeIn("500")})},
+function(){
+$(".butcontent2").hide("500");
+});
+
+
+
+</script>
+
+
+
+  
   <div id="footer">
   </div>
 
