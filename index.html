@@ -24,42 +24,36 @@
 
 <body>
 
-  <div id="header">
+<div id="header_region">
 
-<div id="numbers">
-    <!--img src="pix/numbers.png" /-->
-  </div> 
 
+	<div id="header">
+		<div id="pagename">virtualop</div>
+       		<div id="slogan">Software Cycle as a Service.</div>
+	</div>
   
-  <div id="navi">
-    <ul class="nav">
-      <li class="button b"> <a href="../tabs/virtualop_bn.html">home</a> </li>
+  	<div id="navi">
+    		<ul class="nav">
+      		<li class="button b"> <a href="../tabs/virtualop_bn.php">home</a> </li>
 
-      <li id="navi_virtualop" class="button b1"> <a href="../tabs/products.html">virtualop</a> 
-<div class="butcontent1 button"><a href="../tabs/plugins.html">plugins</a></div></li>
+<li class="button b2"> <a href="../tabs/platform.html">virtualop</a>
+		<!--<div class="butcontent2 button"><a href="../tabs/plugins.html">pricing</a></div>--></li>
 
-      <li class="button b2"> <a href="../tabs/contact.html">platform</a>
-<div class="butcontent2 button"><a href="../tabs/contact.html">pricing</a></div></li>
-
-      <li class="button b"> <a href="">support</a> </li>
-      <li class="button b"> <a href="../tabs/downloads.html">downloads</a> </li>
-      <li class="button b"> <a href="../tabs/contact.php">contact</a> </li>
-    </ul>
-  </div>
-
-<div id="logo">
- <div id="pagename">virtualop</div>
-
- <div id="slogan"> 
- Automated Infrastructure.
- </div>
-</div>
+      		<li class="button b"> <a href="../tabs/plugins.html">plugins</a> </li>
 
 
+      		<li class="button b"> <a href="../tabs/downloads.html">downloads</a> </li>
 
-  </div>
+<li class="button b b3"> <a href="../tabs/documentation.html">documentation</a> </li>
 
- 
+   	 	</ul>
+  	</div>
+
+	<div id="numbers">
+    		<!--img src="pix/numbers.png" /-->
+  	</div> 
+
+
 
 <div id="contentWrapper">
 </div>
@@ -97,7 +91,7 @@
 
     function populateNumbers() {
         var numberDivs = '';
-        for (var i = 0; i < 8; i++) {
+        for (var i = 0; i < 10; i++) {
 	  numberDivs += generateLine('numbers' + i, 'numbers');
         }
         $('#numbers').append(numberDivs);
@@ -143,6 +137,9 @@ $(".butcontent2").hide("500");
 
   
   <div id="footer">
+	<div id="foo_wrap">
+<span id="version"></span>
+	</div> 		<div id="numbers_foo"> 		</div>
   </div>
 
 </body>

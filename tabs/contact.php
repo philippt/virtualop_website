@@ -59,14 +59,14 @@ if($_SESSION['sent'])
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td><label for="subject">Subject</label></td>
+          <!-- <td><label for="subject">Subject</label></td>
           <td><select name="subject" id="subject">
             <option value="" selected="selected"> - Choose -</option>
             <option value="Opensource">Opensource</option>
             <option value="Hosting">Hosting</option>
             <option value="Business Proposal">Business Proposal</option>
             <option value="Other">Other</option>
-          </select>          </td>
+          </select>          </td> -->
           <td>&nbsp;</td>
         </tr>
         <tr>

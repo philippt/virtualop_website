@@ -1,113 +1,104 @@
+<div id="plugin_wrapper">
+  <div class="h_plug"><h1>Plugins</h1></div>
 
-<div class="h_plug"><h1>Plugins</h1></div>
+	<div id="accordion">
+	  <h3><a class="category" id="core" href="#">Core</a></h3>	 
+	  <div>
+	    <div class="description">minimal set of plugins needed to run the virtualop</div>
+	    <p></p>
+      </div>
+		
+	  <h3><a class="category" id="installation" href="#">Installation</a></h3>	 
+	  <div>
+	    <div class="description">Setup new machines from scratch</div>
+	    <p></p>
+      </div>
 
-<div id="accordion">
-	<h3><a href="#">Installation of new VOp machines</a></h3>
+	<h3><a class="category" id="deployment" href="#">Deployment</a></h3>
+
 	<div>
-		<img src="../pix/flecha2.png"> </img>
-<p>
-Sonic Hedgehog
-</p>
-
+	   <div class="description">Deploy pre-packaged services and your own projects from a variety of sources</div>
+	   <p> </p>
 	</div>
-	<h3><a href="#">Deployment from github, subversion, dropbox</a></h3>
+
+	<h3><a class="category" id="monitoring" href="#">Monitoring</a></h3>
 	<div>
-		<img src="../pix/flecha2.png"> </img>
-<p>
-Future beats
-</p>
+	   <div class="description">
+           With our monitoring system, you can detect downtimes and 		   problems with the availability and scalability of your 		   application.
+	   </div>
+	   <p> </p>
 	</div>
-	<h3><a href="#">Monitoring (application & infrastructure)</a></h3>
+
+	<h3><a class="category" id="backup" href="#">Backup &amp; Restore</a></h3>
 	<div>
-
-		<div id="monitoring_accordion">
-			<h3><img src="../pix/flecha2.png"> </img>
-<p>
-The man who sold the world
-</p>
-</h3>
-			
-			<div>this is the first plugin</div>
-			<h3>
-<img src="../pix/flecha2.png"> </img>
-<p>
-Barbarella shot the hound
-</p>
-</h3>
-			<div>this is the second plugin</div>
-			<h3>
-<img src="../pix/flecha2.png"> </img>
-<p>
-Methusalem
-</p>
-
-</h3>
-		<div>this is the third plugin</div>
+		<div class="description">
+		In the metadata of your application, you specify what data 		you want to include in the backup, which is performed once 		a day. This backups not only become handy in the case of 		disc failures (>restore), but also provide useful 			information for your development and staging environments.
 		</div>
-
+        <p> </p>
 	</div>
-	<h3><a href="#">Backup & Restore</a></h3>
+
+	<h3><a class="category" id="database" href="#">Database setup and replication</a></h3>
 	<div>
-		<img src="../pix/flecha2.png"> </img>
-<p>
-Cascade surfing
-</p>
-
+		<div class="description">These plugins help you to setup (MySQL) databases.</div>
+        <p> </p>
 	</div>
 
-<h3><a href="#">MySQL database setup and replication</a></h3>
+	<h3><a class="category" id="logfiles" href="#">Logfile collection &amp; analysis</a></h3>
 	<div>
-		<img src="../pix/flecha2.png"> </img>
-<p>
-Burma Shave</p>
-
+		<div class="description">
+		Be able to identify the problems and bugs that are lowering the functionality of your application without 			digging through tons of logfiles.</div>
+		<p> </p>
 	</div>
 
-<h3><a href="#">Logfile collection & analysis</a></h3>
+	<h3><a class="category" id="ci" href="#">Continuous Integration 	&amp; deployment</a></h3>
 	<div>
-		<img src="../pix/flecha2.png"> </img>
-<p>
-Sister Twister
-</p>
-
+	   <div class="description"> 
+		Deploying small changes can be a very complicated thing. With the Virtual Op, you can simply update them on your 		machines and...they're are already part of you application.
+		</div>
+        <p> </p>
 	</div>
 
-<h3><a href="#">Continuous Integration & deployment</a></h3>
+	<h3><a class="category" id="testing" href="#">Automated testing</a></h3>
 	<div>
-		<img src="../pix/flecha2.png"> </img>
-<p>
-Tahoma Sans-Salloon
-</p>
-	</div>
-
-<h3><a href="#">Automated testing</a></h3>
-	<div>
-		<img src="../pix/flecha2.png"> </img>
-<p>
-Bangalore
-</p>
-
-	</div>
-
-
-
+	   <div class="description">
+                Before your changes are visible for the users of your 		  	application, you might want to make sure that they work 		first. With our testing system, you can check several 			parameters, like load, scalability, and availabilty.</div>
+	   <p></p>
+	   </div>
+		
+	
+  </div>
 </div>
 
 
 <script>
 	$( "#accordion" ).accordion({
- 	autoHeight: false,
- 	navigation: true,
-	active: false,
-	collapsible: true
+	 	autoHeight: false,
+	 	navigation: true,
+		active: false,
+		collapsible: true
  	});
-
-	$( "#monitoring_accordion" ).accordion({
- 	autoHeight: false,
- 	navigation: true,
-	active: false,
-	collapsible: true
+ 	
+ 	
+ 	$.getJSON('/plugins.json', function(plugins) {
+ 		
+	 	$("#accordion .category").each(function(idx, elem) {
+	 	  //console.log("searching plugins for ", elem.id);
+	 	  
+	 	  var found = '';
+	 	  $.each(plugins, function(idx2, plugin) {
+	 	  	if ($.inArray(elem.id, plugin.tags) > -1) {
+	 	    	//console.log("found plugin with tags " + plugin.tags, plugin);
+	 	    	found = found + '<p title="' + plugin.description + '">>' + plugin.name + '</p>';	 	        	    	
+	 	    }
+	 	  });
+	 	  if (found != '') {
+   	  	  	$(elem).closest('h3').next().children('p').last().after(found);
+   	  	  }
+	 	});
+	 	
+	 	
  	});
+ 	
+ 	
+</script>
 
-
-	</script>
