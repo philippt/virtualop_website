@@ -3,18 +3,17 @@
 	<h2>documentation</h2>
 
 	<div id="doc_link_wrap">
-	   <a id="docwidgets" href="#">Widgets</a>
-	   <a id="docmachines" href="#">Machines</a>
-	   <a id="docprojects" href="#">Projects</a>
-	   <a id="docdeploy" href="#">Deployments</a>
-	   <a id="docdash" href="#">Other dashboard tabs</a>
-	   <a id="docmachdash" href="#">Machine dashboard</a>
-	   <a id="docthemes" href="#">Themes</a>
+	   <a id="widgets" href="#">Dashboard & Widgets</a>
+	   <a id="dash" href="#">Other dashboard tabs</a>
+	   <a id="machines" href="#">Machines</a>
+	   <a id="projects" href="#">Projects</a>
+	   <a id="deploy" href="#">Deployments</a>
+	   <a id="machdash" href="#">Machine dashboard</a>
+	   <a id="themes" href="#">Themes</a>
 	</div>
 
    <div class="doc_wrapper">
-	<p id="doc_wrap">
-	</p>
+	
    </div>
 
 </div>
@@ -23,31 +22,14 @@
 
 $(function(){
 
-var widgettext="The function of the widgets is to provide you a fast overview over the components of your system that are most relevant for you.\nYou can customize your dashboard by choosing your widgets clicking the ADD WIDGET button.\nThe current collection of widgets consists of\n machines\n projects\n links \n buddies \n newsfeed \n newsfeed graph\n virtualop activity";
-
-var machinetext="The virtualop machines can be stuffed into boxes and sent over the ocean";
-
-var projecttext="many many projects, so few time";
-
-var deploytext="you can deploy projects to machines to servers to your momma";
-
-var dashtext="the other dashtab include what they promise, idiot";
-
-var machdashtext="the details about your shit you get in the machine dashboard";
-
-var texts={docwidgets:widgettext, docmachines:machinetext, docprojects:projecttext, docdeploy:deploytext, docdash:dashtext, docmachdash:machdashtext};
-
-function dokuBla(a)
-	var x=document.getElementById("doc_wrap");
-	x.innerHTML=texts[a];
-	};
 
 	$(".d a").click(function(){
 	console.log($(this).attr("id"));
-	dokuBla($(this).attr("id"));
+	loadContent(".doc_wrapper", "/doc/" + $(this).attr("id") + ".html" );
 	return false;
-    });
+    	});
 
+	
 });
 
 </script>

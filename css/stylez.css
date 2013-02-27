@@ -18,7 +18,7 @@ z-index: 0;
 #contentWrapper #content_w{
 border: 1px solid #FFA500;
 width: 87%;
-min-height: 590px;
+min-height: 630px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 10px;
@@ -94,7 +94,7 @@ margin-bottom: 30px;
 
 
 #pagename{
-text-shadow: #303030 1px -2px 0.7px;
+text-shadow: black 2px -3px 3px;
 color: /*#E69400*/#375AD8; 
 font-size: 58px;
 font-weight: bold;
