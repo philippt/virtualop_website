@@ -24,12 +24,6 @@ $(document).ready(function(){
     verboses.hide();
 	nextPlease();
 
-	$(".fbox[rel=example_group]").fancybox({
-			'titlePosition'		: 'inside',
-			'transitionIn'		: 'none',
-			'transitionOut'		: 'none'
-	});
-
 
 	$("#single_1").fancybox({
       helpers: {
@@ -46,7 +40,7 @@ $(document).ready(function(){
 
 </script>
 
-<div id="content_w">
+<div id="content_w" class="content">
 
     <div id="column-wrapper">
         <div class="column c1">

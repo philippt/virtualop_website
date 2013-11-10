@@ -6,9 +6,10 @@ param! "service_root", "fully qualified path to the location of the service"
 param! "vop_url", "http URL to the virtualop instance for login"
 
 on_machine do |machine, params|
-  dir_name = params["service_root"].split("/").last
+  #dir_name = params["service_root"].split("/").last
     
-  machine.chown("file_name" => params["service_root"], "ownership" => "apache")
+  #machine.chown("file_name" => params["service_root"], "ownership" => "apache")
+  #machine.allow_access_for_apache("file_name" => params["service_root"])
   
   address_file = params["service_root"] + '/address.json'
   machine.write_file("target_filename" => address_file, "content" => [{}.merge_from(params, :vop_url)].to_json())

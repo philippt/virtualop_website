@@ -1,5 +1,5 @@
 /* --- CSS RESET --- */
- {
+*{
     padding: 0;
     margin: 0;
 }
@@ -15,6 +15,15 @@ color: #A0A0A0;
 z-index: 0;
 }
 
+.content{
+margin-bottom: 35px;
+}
+
+#contentWrapper{
+height: auto;
+display: block;
+}
+
 #contentWrapper #content_w{
 border: 1px solid #FFA500;
 width: 87%;
@@ -28,7 +37,6 @@ vertical-align: middle;
 
 
 #numbers {
-/*   background: url(../pix/numbers.png) repeat-x; */
   color: black;
   position: absolute;
   top: 0px;
@@ -79,7 +87,15 @@ color: #3E3E3E;
 }
 
 #numbers7{
-color: 	#2F2F2F;
+color: #2F2F2F;
+}
+
+#numbers8{
+color: #262626;
+}
+
+#numbers9{
+color: #1E1E1E;
 }
 
 #header{
@@ -125,7 +141,7 @@ font-weight: bold;
 
 #navi{
 float: right;
-margin-top: 0;
+margin-top: 20px;
 display: block;
 min-width: 17%;
 margin-right: 85px;
@@ -221,6 +237,7 @@ font-weight: normal;
 
 #footer{
 padding-bottom: 0;
+margin-bottom: 0;
 }
 
 
@@ -230,6 +247,33 @@ letter-spacing: 1px;
 font-size: 12px;
 display: block;
 padding-bottom: 0;
+padding-left: 20px;
 position: relative;
 top: 30px;
+opacity: 0.6;
 }
+
+#footer #numbers_foo{
+font-size: 15px;
+line-height: 13px;
+font-family: courier new, monospace;
+opacity: 0.4;
+z-index: -5;
+padding-bottom: 0;
+}
+
+#footer #numbers_foo0.numbers{
+color: #242424;
+}
+
+#footer #numbers_foo1.numbers{
+color: #2D2D2D;
+}
+
+#footer #numbers_foo2.numbers{
+color: #3F3F3F;
+}
+
+
+
+

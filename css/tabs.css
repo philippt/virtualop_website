@@ -154,6 +154,7 @@ list-style-type: none;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 30px;
+margin-top: 15px;
 width: 93%;
 display: block;
 }
@@ -313,6 +314,10 @@ text-align: justify;
 vertical-align: middle;
 }
 
+#contentWrapper #content_p{
+padding-bottom: 35px;
+}
+
 #contentWrapper #content_p.p1{
 color: #40589F;   
 }
@@ -329,7 +334,7 @@ padding-bottom: 15px;
 #content_p h7{
 color: #40589F;
 font-weight: normal;
-padding-left: 31px;
+padding-left: 8px;
 font-size: 15px;
 padding-top: 20px;
 margin-bottom: 10px;
@@ -378,6 +383,7 @@ text-shadow: 1px -1px 1px black;
 #content_p div#vop_txt_wrap p{
 padding: 0;
 margin-left: 20px;
+margin-bottom: 15px;
 line-height: 14px;
 color: white;
 }
@@ -416,9 +422,10 @@ display: inline-block;
 
 #content_p div#vop_txt_wrap{
 width: 67%;
-min-height: 350px;
+min-height: 300px;
 display: inline-block;
 margin-right: 15px;
+margin-bottom: 50px;
 }
 
 img.quadri{
@@ -430,6 +437,10 @@ margin-left: 25px;
 margin-left: 45px;
 margin-right: 45px;
 font-size: 14px;
+}
+
+#content_p p:last-child{
+margin-bottom: 75px;
 }
 
 #content_p p > a{
@@ -446,6 +457,24 @@ font-size: 14px;
 color: #375AD8;
 }
 
+#contentWrapper #content_p div#bild{
+margin-top: 5px;
+}
+
+/* * *   basic   * * */
+
+#contentWrapper #content_p a.doyou{
+text-decoration: none;
+color: #40589F;
+font-family: helvetica, sans-serif;
+font-size: 14px;
+margin-left: 23px;
+margin-top: 15px;
+}
+
+#contentWrapper #content_p a.doyou:first-child{
+border-right: 1px solid #40589F;
+}
 
 
 /*--------PLUGINS--------*/
@@ -735,6 +764,7 @@ color: white;
 padding-left: 0;
 margin-left: 0;
 margin-top: 0;
+margin-bottom: 25px;
 }
 
 #contentWrapper  #content_w div.doc_wrapper h1{
@@ -750,4 +780,5 @@ width: 30%;
 display: inline-block;
 vertical-align: top;
 margin-right: 50px;
+margin-top: 25px;
 }

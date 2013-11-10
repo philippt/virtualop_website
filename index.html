@@ -16,6 +16,7 @@
 <script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript" src="js/numbers.js"></script>
 
 
 </head>
@@ -48,17 +49,29 @@
   	</div>
 
 	<div id="numbers">
-    		<!--img src="pix/numbers.png" /-->
+    		
   	</div> 
+</div>
 
 
 
 <div id="contentWrapper">
 </div>
 
+<div id="footer">
 
+	    <div id="foo_wrap">
+	    <span id="copyright">&copy; xop 2013</span>	
+	    </div>
 
-  <!-- tabs and content loading -->
+	    <div id="numbers_foo"> 	    </div>
+	
+</div>
+
+</body>
+</html>
+
+ <!-- tabs and content loading -->
  
  <script type="text/javascript">
     function loadContent(selector, url) {
@@ -76,35 +89,13 @@
  });
 
 
+
+
 <!-- *** -->
-
-    function generateLine(divName, className) {
-        var result = '<div id="' + divName + '" class="' + className + '">';
-	for (var j = 0; j < 512; j++) {
-	  result += Math.round(Math.random());
-	}    
-        result += '</div>';
-        return result;
-    }
-
-    function populateNumbers() {
-        var numberDivs = '';
-        for (var i = 0; i < 10; i++) {
-	  numberDivs += generateLine('numbers' + i, 'numbers');
-        }
-        $('#numbers').append(numberDivs);
-    }
-
-    function changeNumbers() {
-        var numberDivs = $('#numbers .numbers');
-        var divName = '#numbers' + Math.round(Math.random() * numberDivs.size()).toString();
-        $(divName).html(generateLine(divName, 'numbers'));
-        setTimeout(changeNumbers, Math.round(5000 * Math.random()));
-    }
-
 
 
         populateNumbers();
+        populateNumbers('numbers_foo',3);
 	changeNumbers();
 
         $('#navi li').first().click();
@@ -131,14 +122,3 @@ $(".butcontent2").hide("500");
 
 </script>
 
-
-
-  
-  <div id="footer">
-	<div id="foo_wrap">
-<span id="version"></span>
-	</div> 		<div id="numbers_foo"> 		</div>
-  </div>
-
-</body>
-</html>
