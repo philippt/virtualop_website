@@ -1,4 +1,34 @@
+<h1>The virtualop is a framework for automating the setup, deployment and operations of web applications.</h1>
+
+<br/>
+<p>The basic idea is to help you get your web app online and keep it running:
+
 <div id="bild">
-<img src="/pix/cycle1.png" />
+<img src="/pix/sourcetoapp.png" />
 </div>
 
+</p>
+
+<p>To accomplish this, we use the virtualop to setup a number of infrastructure services around your web application:
+<div class="bild">
+  <!--img src="/pix/appwithfriends.png" /-->    
+</div>
+</p>
+
+<p>The specific requirements of how your application should be integrated are specified as part of your project's code source, in files that we call service descriptors.</p>
+
+<p>When your application is integrated into it's runtime environment, it is deployed automatically onto a dedicated production environment consisting of a two-node cluster:
+<div class="bild">
+  <!--img src="/pix/prod_setup.png" /-->
+</div>
+</p>
+
+<p>All data from your application is backed up regularly and stored in a data repository:
+    
+</p>
+
+<p>This data repository can be used to provide test data for setting up copies of your production system for development and testing:</p>
+
+
+
+</p>

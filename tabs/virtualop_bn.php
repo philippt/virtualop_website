@@ -149,7 +149,7 @@ $(function(){
 
            <div id="maintext">
 
-               <h1>Welcome to virtualop.org, the web presence of the Ruby framework The Virtual Operator.</h1>
+               <h1>Welcome to virtualop.org, the official web site of the open source project <tt>virtualop</tt></h1>
 
 	       <div class="text">
 
@@ -168,7 +168,11 @@ $(function(){
 		    </div>
 		    <div class="main_links_wrap">
 		        <img src="/pix/dblarr_small.png" class="main_links" />
-		        <a class="main_link fbox" id="single_1" href="#contact">get in touch </a>
+		        <a href="#" class="main_link">yo mama is two payamas</a>
+		    </div>
+		    <div class="main_links_wrap">
+		        <img src="/pix/dblarr_small.png" class="main_links" />
+		        <a class="main_link fbox" id="single_1" href="#contact">buzz off to you too</a>
 		    </div>
 
 
@@ -283,7 +287,8 @@ $(function(){
 
 	    <li>
 	        <div class="sec2">
-	        <h2>Deployment.</h2> Get your app online by drag and drop ! 		Deploy releases to your machines continuously browsing source code from your dropbox or github account.
+	        <h2>Cutting Edge.</h2>Help us find exciting new features in our applications!
+
 	        </div>
 	    </li>
 

@@ -1,0 +1,33 @@
+<h2>Installation</h2>
+
+<h3>Requirements</h3>
+<br/>
+<ul>
+  <li>Linux</li>
+  <li>Ruby (1.9.3)</li>
+</ul>
+
+<br/>
+<h3>Packages</h3>
+
+<h4>RPM for RedHat/CentOS/SLES</h4>
+<br/>
+<p>There are RPM packages available at <a href="http://packages.dev.virtualop.org/rpm">http://packages.dev.virtualop.org/rpm</a>.
+<br/><br/>
+On a current CentOS (6.5), you'll have to add two RPM repositories like this:
+<pre>
+sudo wget -O /etc/yum/repos.d/epel.repo http://mirror.dev.virtualop.org/pub/Mirrors/epel/6/x86_64/epel-release-6-8.noarch.rpm
+sudo wget -O /etc/yum.repos.d/virtualop.repo http://packages.dev.virtualop.org/rpm/virtualop.repo
+</pre>
+If this works, you can install the virtualop with:
+<pre>
+sudo yum install -y virtualop
+</pre>
+Note: This will attempt to install RVM from rvm.io systemwide and then install ruby 1.9.3 into the context of a newly created user called 'marvin'.
+</p>
+
+<br/>
+<h4>APT for Debian/Ubuntu</h4>
+
+<h3>Manual Installation</h3>
+  <li>SSH access to localhost (probably also as root for some features at the moment)</li>
