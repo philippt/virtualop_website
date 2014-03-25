@@ -1,5 +1,6 @@
 <?php
 $pages = array();
+$docs = array();
 
 $languages = array();
 if ($handle = opendir('pages')) {
@@ -34,18 +35,40 @@ if ($handle = opendir($lang_dir)) {
   }
   closedir($handle);
 }
+$content_dir = $lang_dir;
+
+$doc_dir = 'doc/';
+if ($handle = opendir($doc_dir)) {
+  while (false !== ($file = readdir($handle))) {
+    if ($file != '.' && $file != '..') {
+      $parts = explode('.', $file);
+      $docs[] = $parts[0];
+    }
+  }
+  closedir($handle);
+}
 
 $query = $_GET['q'];
 if (! $query) {
   $query = 'hello';
 }
+
+$parts = explode('/', $query);
+if (count($parts) == 2) {
+	if ($parts[0] == 'doc') {
+		$content_dir = $doc_dir;
+		$query = $parts[1];
+		$pages = $docs;
+	}
+}
+
 if (in_array($query, $pages)) {
   include 'include/header.php';
   if (in_array('header', $pages)) {
     include $lang_dir . '/header.php';
   }
 
-  include $lang_dir . '/' . $query . '.php';
+  include $content_dir . '/' . $query . '.php';
 
   if (in_array('footer', $pages)) {
     include $lang_dir . '/footer.php';

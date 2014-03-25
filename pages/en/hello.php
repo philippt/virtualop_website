@@ -149,7 +149,7 @@ $(function(){
 
            <div id="maintext">
 
-               <h1>Welcome to virtualop.org, the official web site of the open source project <tt>virtualop</tt></h1>
+               <h1>Foo!</h1><h2>Welcome to virtualop.org, the official web site of the open source project <tt>virtualop</tt></h2>
 
 	       <div class="text">
 
