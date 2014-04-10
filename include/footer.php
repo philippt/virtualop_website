@@ -11,57 +11,44 @@
 	
 </div>
 
-</body>
-</html>
+<script type="text/javascript">
 
- <!-- tabs and content loading -->
- 
- <script type="text/javascript">
-    function loadContent(selector, url) {
-	  $.get(url, function(data) {
-	    $(selector).html(data);
-	  });
-    }
+function loadContent(selector, url) {
+  $.get(url, function(data) {
+    $(selector).html(data);
+  });
+};
 
- $(function() {  
-     $('#navi .button').click(function() {
-	the_id = $(this).attr('id');
-        url = $(this).find('a').attr('href');
-        loadContent('#contentWrapper', url);
-        return false;
- });
+$(function() {  
 
-
-
-
-<!-- *** -->
-
-
-        populateNumbers();
-        populateNumbers('numbers_foo',3);
+    populateNumbers();
+    populateNumbers('numbers_foo',3);
 	changeNumbers();
 
-        //$('#navi li').first().click();
-    });
-
-<!-- navi - hover -->
-
-$(".b1").hover(function(){
-$(this).slideDown("1500",function(){
-$(".butcontent1").fadeIn("500")})},
-function(){
-$(".butcontent1").hide("500");
+	$(".b1").hover(
+		function(){
+			$(this).slideDown("1500",function(){
+				$(".butcontent1").fadeIn("500")
+			}
+		)},
+		function(){
+			$(".butcontent1").hide("500");
+		}
+	);
+	
+	$(".b2").hover(
+		function(){
+			$(this).slideDown("1500",function(){
+				$(".butcontent2").fadeIn("500")
+			}
+		)},
+		function(){
+			$(".butcontent2").hide("500");
+		}
+	);
 });
-
-
-$(".b2").hover(function(){
-$(this).slideDown("1500",function(){
-$(".butcontent2").fadeIn("500")})},
-function(){
-$(".butcontent2").hide("500");
-});
-
-
 
 </script>
 
+</body>
+</html>

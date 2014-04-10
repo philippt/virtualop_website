@@ -63,18 +63,21 @@ if (count($parts) == 2) {
 }
 
 if (in_array($query, $pages)) {
-  include 'include/header.php';
-  if (in_array('header', $pages)) {
-    include $lang_dir . '/header.php';
+  if ($pages != $docs) {
+  	include 'include/header.php';
+	if (in_array('header', $pages)) {
+	  include $lang_dir . '/header.php';
+	}
   }
 
   include $content_dir . '/' . $query . '.php';
 
-  if (in_array('footer', $pages)) {
-    include $lang_dir . '/footer.php';
+  if ($pages != $docs) {
+    if (in_array('footer', $pages)) {
+      include $lang_dir . '/footer.php';
+    }
+    include 'include/footer.php';
   }
-  include 'include/footer.php';
-
 } else {
   header('HTTP/1.0 404 Not Found');
   echo "<h1>404 Not Found</h1>";

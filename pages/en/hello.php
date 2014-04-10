@@ -1,44 +1,7 @@
-<script type="text/javascript">
-
-
-$(document).ready(function(){
-	//$("#fade").fadeIn(1000);
-	
-	var verboses = $('.verbose');
-
-	var idx = 0;
-	
-	if ($('body').data('timeout')) {
-		clearTimeout($('body').data('timeout'));
-	}
-	
-	function nextPlease() {
-	  if (idx == verboses.length) {
-        idx = 0;
-      }
-	  $('#' + verboses[idx].id).fadeIn(1000).delay(5000).fadeOut(1000);
-	  idx++;
-	  $('body').data('timeout', setTimeout(nextPlease, 10000));
-	}
-
-    verboses.hide();
-	nextPlease();
-
-
-	$("#single_1").fancybox({
-      helpers: {
-          title : {
-              type : 'float'
-             }
-          }
-      });
-
-	$.getJSON('/address.json', function(data) { 
-		$('#vop_link').attr("href", data[0].vop_url);
-	});
-});
-
-</script>
+<?php 
+session_name("fancyform");
+session_start();
+?>				
 
 <div id="content_w" class="content">
 
@@ -46,10 +9,12 @@ $(document).ready(function(){
         <div class="column c1">
 		
 
-            <div id="verbose1" class="verbose">
+        <div id="verbose1" class="verbose">
 	     
 	         <div class="verb_wrap">
-		     <a class="fbox" href="" title="Installation of new Virtual Machines">installation of new Virtual Machines </a>
+		     <a class="fbox" href="" title="Installation of new Virtual Machines">
+		     	installation of new Virtual Machines
+		     </a>
 	        </div>
 	    </div>
 
@@ -113,54 +78,21 @@ $(document).ready(function(){
        </div>
 	
 
-<script type="text/javascript">
-
-$(function(){
- function loadContent(selector, url) {
-	  $.get(url, function(data) {
-	    $(selector).html(data);
-	  });
-    };
-
- $(function() {  
-     $('#platform').click(function() {
-	the_id = $(this).attr('id');
-        url = $(this).attr('href');
-        loadContent('#contentWrapper', url);
-        return false;
-        });
-     });
-
-
-$(function(){
-	$(".fbox[rel=single_1]").fancybox({
-			'titlePosition'		: 'inside',
-			'transitionIn'		: 'elastic',
-			'transitionOut'		: 'elastic'
-		});
-	});
-	});
-
-
-
-	</script>
-
        <div class="column c2">
 
            <div id="maintext">
 
-               <h1>Foo!</h1><h2>Welcome to virtualop.org, the official web site of the open source project <tt>virtualop</tt></h2>
+               <h1>Welcome to virtualop.org, the official web site of the open source project <tt>virtualop</tt>.</h1>
 
 	       <div class="text">
 
 	            <div class="main_links_wrap">
 		        <img src="/pix/dblarr_small.png" class="main_links" />
-		        <a href="/?q=platform" class="new_main_link" id="platform">What is this exactly ?</a>
+		        <a href="/?q=platform" class="main_link" id="platform">What is this exactly ?</a>
 		    </div>
 		    <div class="main_links_wrap">
 		        <img src="/pix/dblarr_small.png" class="main_links" />
-		        
-		        <a href="#" id="vop_link" class="main_link" target="_blank">virtualop login</a>
+			  	<a href="#" id="vop_link" class="main_link" target="_blank">virtualop login</a>		     			        
 		    </div>
 		    <div class="main_links_wrap">
 		        <img src="/pix/dblarr_small.png" class="main_links" />
@@ -168,11 +100,7 @@ $(function(){
 		    </div>
 		    <div class="main_links_wrap">
 		        <img src="/pix/dblarr_small.png" class="main_links" />
-		        <a href="#" class="main_link">yo mama is two payamas</a>
-		    </div>
-		    <div class="main_links_wrap">
-		        <img src="/pix/dblarr_small.png" class="main_links" />
-		        <a class="main_link fbox" id="single_1" href="#contact">buzz off to you too</a>
+		        <a class="main_link fbox" id="single_1" href="#contact">contact</a>
 		    </div>
 
 
@@ -180,7 +108,7 @@ $(function(){
 	
 		        <div id="contact">
 
-		            <?php echo $css; ?>
+		            <?php if (defined($css)) { echo $css; } ?>
 
 			    <script type="text/javascript" src="jqtransformplugin/jquery.jqtransform.js"></script>
 			    <script type="text/javascript" src="formValidator/jquery.validationEngine.js"></script>
@@ -188,9 +116,6 @@ $(function(){
 			    <script type="text/javascript" src="js/script.js"></script> 
 
 			    <?php
-
-			    session_name("fancyform");
-			    session_start();
 
 
 			    $_SESSION['n1'] = rand(1,20);
@@ -283,24 +208,90 @@ $(function(){
 		 Be flexible with where to create your web environment 		using the virtualop for automatic installation from scratch and automatic configuration of virtual machines.
 	        </div>	
 	    </li>
-
-
+	
+	
 	    <li>
 	        <div class="sec2">
 	        <h2>Cutting Edge.</h2>Help us find exciting new features in our applications!
-
+	
 	        </div>
 	    </li>
-
-
-
+	
+	
+	
 	    <li>
 	        <div class="sec2">
 	       <h2>Operations.</h2>Ensure that your web app keeps running smoothly with the virtualop plugins, taking care of monitoring, backup and restore, logfile storage and analysis and more.
 	        </div>
 	    </li>
 
-        </ul>
-
+    </ul>
 
 </div>
+
+<script type="text/javascript">
+
+$(function(){
+	
+  $("#single_1").fancybox({
+  	helpers: {
+      title : {
+          type : 'float'
+      }
+    }
+  });
+  
+  $(".fbox[rel=single_1]").fancybox({
+	'titlePosition'		: 'inside',
+	'transitionIn'		: 'elastic',
+	'transitionOut'		: 'elastic'
+  });  
+
+  $.getJSON('/address.json', function(data) {
+	var vop_url = data[0].vop_url; 
+	$('#vop_link').attr("href", vop_url);
+	
+	<?php 
+	  $rails_session = $_COOKIE['_virtualop_webapp_rails3_session'];
+	  error_log("rails session : >>>" . $rails_session . "<<<");
+	  if ($rails_session != '') { ?> 
+		$.getJSON('/vop/~/my_name', function(user_name) {
+			//console.log("my name is " + user_name);
+			$('#header #pagename').first().html(user_name[0]);
+			$('#header #slogan').first().html('welcome back');
+		});
+	<?php } ?>
+  });	
+
+/*
+  $('#platform').click(function() {
+	var the_id = $(this).attr('id');
+    var url = $(this).attr('href');
+    loadContent('#contentWrapper', url);
+    return false;
+  });
+*/  
+
+  var verboses = $('.verbose');
+
+  var idx = 0;
+	
+  if ($('body').data('timeout')) {
+	clearTimeout($('body').data('timeout'));
+  }
+	
+  function nextPlease() {
+	if (idx == verboses.length) {
+		idx = 0;
+	}
+	$('#' + verboses[idx].id).fadeIn(1000).delay(5000).fadeOut(1000);
+	idx++;
+	$('body').data('timeout', setTimeout(nextPlease, 10000));
+  }
+
+  verboses.hide();
+  nextPlease();  
+	
+});
+
+</script>

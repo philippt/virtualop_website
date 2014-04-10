@@ -120,7 +120,9 @@ margin-top: 50px;
 letter-spacing: 1px;
 }
 
-#content_w .c2 #maintext div.text a.main_link{
+#content_w .c2 #maintext div.text a.main_link,
+#content_w .c2 #maintext div.text a.main_link:active,
+#content_w .c2 #maintext div.text a.main_link:visited {
 color: white;
 font-size: 14px;
 font-family: courier new, monospace;

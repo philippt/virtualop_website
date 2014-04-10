@@ -33,18 +33,11 @@
   
   	<div id="navi">
     		<ul class="nav">
-      		<li class="button b"> <a href="../tabs/virtualop_bn.php">home</a> </li>
-
-<li class="button b2"> <a href="../tabs/platform.html">virtualop</a>
-		
-
+      		<li class="button b"> <a href="/">home</a> </li>
+			<li class="button b2"> <a href="/?q=platform">virtualop</a>
       		<li class="button b"> <a href="../tabs/plugins.html">plugins</a> </li>
-
-
       		<li class="button b"> <a href="../tabs/downloads.html">downloads</a> </li>
-
-<li class="button b b3"> <a href="../tabs/documentation.html">documentation</a> </li>
-
+			<li class="button b b3"> <a href="/?q=documentation">documentation</a> </li>
    	 	</ul>
   	</div>
 

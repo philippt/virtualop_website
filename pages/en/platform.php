@@ -31,9 +31,7 @@
 
 $(function(){
 
-	$(document).ready(function(){
 	loadContent("#vop_txt_wrap", "/doc/default.html");
-	});
 
 	$(".voplinks").click(function(){
 	console.log($(this).attr("id"));
