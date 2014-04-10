@@ -9,4 +9,4 @@ ProxyPassReverse /vop <%= vop_domain %>
 
 EOT
 
-static_html :erb_twist => twist
+static_html :erb_twist => twist, :twist_target => 'vhost'
