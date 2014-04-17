@@ -1,34 +1,32 @@
 <h1>The virtualop is a framework for automating the setup, deployment and operations of web applications.</h1>
 
 <br/>
-<p>The basic idea is to help you get your web app online and keep it running:
+<p>It is written using the Ruby programming language, consists of a relatively small core, a command line interface, a web interface and a growing number of plugins and services.</p>
 
-<div id="bild">
-<img src="/pix/sourcetoapp.png" />
-</div>
+<p>The plugins contain logic for setting up the virtualop platform, which is a set of virtual machines deployed across 3 different physical hosts (two for production, one for staging). This platform is self-deploying, i.e. it automatically deploys new versions of itself onto the staging environment, tests them there and updates itself on successful completion of all tests. A similar mechanism can be used to setup machines for development and integrate changes prepared there.</p>
 
+<p>The framework's design makes it easy to integrate a variety of services into the platform, and if any part of the platform does not fit your needs, you can replace it with your own version.</p>
+
+<p>The virtualop is still in an alpha stage - parts of the functionality are completed, including:
+<ul>
+  <li>installation: setup new virtual machines with CentOS or Ubuntu</li>
+  <li>deployment: install your projects from github, through git, subversion or from ownCloud
+      <ul>
+        <li>github: if you connect your github account, the virtualop initializes new repositories and manages SSH keys for you.</li>
+        <li>ownCloud: The minimal platform comes with a built-in owncloud server, and the virtualop prepares development machines with an owncloud client connected to it.</li>
+      </ul>
+  </li>
+  <li><b>canned services</b>&nbsp;deploy #{services_count} services with one click</li>
+  <li><b>monitoring:</b>&nbsp;Nagios configuration is automatically generated for new machines</li>
+  <li></li>
+</ul>
 </p>
 
-<p>To accomplish this, we use the virtualop to setup a number of infrastructure services around your web application:
-<div class="bild">
-  <!--img src="/pix/appwithfriends.png" /-->    
-</div>
+<p>What is missing for public consumption is:
+<ul>
+    <li>documentation</li>
+    <li>security</li>
+</ul>
 </p>
 
-<p>The specific requirements of how your application should be integrated are specified as part of your project's code source, in files that we call service descriptors.</p>
-
-<p>When your application is integrated into it's runtime environment, it is deployed automatically onto a dedicated production environment consisting of a two-node cluster:
-<div class="bild">
-  <!--img src="/pix/prod_setup.png" /-->
-</div>
-</p>
-
-<p>All data from your application is backed up regularly and stored in a data repository:
-    
-</p>
-
-<p>This data repository can be used to provide test data for setting up copies of your production system for development and testing:</p>
-
-
-
-</p>
+<p>If you are new to the virtualop, you will probably want to take a look at the web interface first - you can reach it <a href="#insert_link_here">here</a>.</p>

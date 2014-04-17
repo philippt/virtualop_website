@@ -390,6 +390,14 @@ line-height: 14px;
 color: white;
 }
 
+#content_p div#vop_txt_wrap ul{
+margin-left: 20px;
+margin-bottom: 15px;
+line-height: 14px;
+font-size: 14px;
+color: white;
+}
+
 #content_p div.linkbox{
 height: auto;
 display: inline-block;
