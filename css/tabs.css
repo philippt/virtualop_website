@@ -792,3 +792,9 @@ vertical-align: top;
 margin-right: 50px;
 margin-top: 25px;
 }
+
+#contentWrapper .diagrams_wrapper img {
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}

@@ -2,9 +2,7 @@
 
     <div id="platform_header">
 
-      <p1>
-      setup. deployment. operations.</p1>
-      <!--p1>The virtualop is a framework to help you to get your web app online and keep it running.</p1-->
+      <p1 title="...and peace, love and happiness for everybody, of course">setup. deployment. operations.</p1>
 
     </div>
 
@@ -31,15 +29,13 @@
 
 $(function(){
 
-	loadContent("#vop_txt_wrap", "/doc/default.html");
 
 	$(".voplinks").click(function(){
-	console.log($(this).attr("id"));
-	loadContent("#vop_txt_wrap", "/doc/" + $(this).attr("id") + ".html" );
-	return false;
-    	});
+		console.log($(this).attr("id"));
+		loadContent("#vop_txt_wrap", "/doc/" + $(this).attr("id") + ".html" );
+		return false;
+    });
 
-	
 });
 
 </script>

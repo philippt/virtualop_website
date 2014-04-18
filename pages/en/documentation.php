@@ -42,11 +42,13 @@ $(function(){
 
 
 	$(".d a").click(function(){
-	console.log($(this).attr("id"));
-	loadContent(".doc_wrapper", "/doc/" + $(this).attr("id") + ".html" );
-	return false;
-    	});
+		console.log($(this).attr("id"));
+		loadContent(".doc_wrapper", "/doc/" + $(this).attr("id") + ".html" );
+		return false;
+    });
 
+	loadContent(".doc_wrapper", "/doc/default.html");
+	console.log("foo!");
 	
 });
 

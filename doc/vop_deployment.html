@@ -1,0 +1,31 @@
+<div class="diagrams_wrapper">
+<p>The virtualop is a system that deploys itself.</p>
+<br/>
+<p>In a minimal failsafe configuration, it consists of four housts: Two production hosts, one for automated testing (Continuous Integration) and one for development:
+<br/>
+<img src="/pix/vop_deployment/vop_deployment_1_four_hosts.png" />	
+</p>
+
+<p>Each host holds a number of virtual machines, including a virtualop instance and a set of other systems 
+for infrastructure (reverse proxy, DNS, LDAP) and for managing the platform (monitoring, backup, logfiles):
+<br/>
+<img src="/pix/vop_deployment/vop_deployment_1b_many_vms.png" />
+</p>
+
+<p>The deployment process is triggered on the production system which starts by re-installing the virtualop VM on the CI host:
+<img src="/pix/vop_deployment/vop_deployment_2_kaboom_vop_ci.png" />
+</p>
+
+<p>The new virtualop on CI will then rollout the infrastructure stacks needed, e.g. monitoring, LDAP, DNS, testing, backup etc.:
+<img src="/pix/vop_deployment/vop_deployment_3_rollout_ci.png" />	
+</p>	
+
+<p>When this rollout is completed, the same sequence starts once again with the virtualop on CI setting up the inactive part of the production system:
+<img src="/pix/vop_deployment/vop_deployment_4_kaboom_prodB.png" />	
+</p>
+
+<p>This new virtualop in turn reinstalls the rest of the inactive production system, restores the data, hopefully runs some tests and then switches over the public DNS to point to the new production system.
+<img src="/pix/vop_deployment/vop_deployment_5_rollout_prodB.png" />	
+</p>
+
+</div>
