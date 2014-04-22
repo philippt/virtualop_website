@@ -1,6 +1,6 @@
 <div id="content_w" class="d content">
 
-	<h1>documentation</h1>
+	<h2>documentation</h2>
 
 	<div id="doc_link_wrap">
       <h2>user manual</h2>
